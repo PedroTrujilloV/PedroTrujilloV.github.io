@@ -1,2 +1,2 @@
 # PedroTrujilloV.github.io
-Journal week repo one: The Right Mindset
+added draft journal entry week 1
