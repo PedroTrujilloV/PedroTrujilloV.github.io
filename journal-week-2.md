@@ -19,7 +19,7 @@ UIPopoverController
 UICollectionView
 Universal Apps
 In-class app: Collect 'Em All
-The HIG
+The HIG.
 
 
 Was very interesting learn more about swift. for me was very helpful the experience programming with Python because is a modern programing language to, I think much modern than Swift, and more easy to use.
