@@ -6,7 +6,7 @@ Journal, Week 2
 
 
 
-Objectives
+Objectives.
 
 After completing this assignment, you should…
 
