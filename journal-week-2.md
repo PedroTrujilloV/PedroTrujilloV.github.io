@@ -27,7 +27,7 @@ Was very interesting learn more about swift. for me was very helpful the experie
 My muscle memory is creating the necessary knowledge to create fast Swift code. I'm very exciting to learn about use databases with Swift, because that will be a key topic for my possible project in the Swift course.
 
 
-My Topic to researching
+My Topic to researching:
 
 Collection Data Structures In Swift
 
