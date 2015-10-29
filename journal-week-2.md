@@ -80,6 +80,6 @@ Now, going carefully, you can see that the factorial of each issue includes the 
 "2!" It is "1 [1!] X 2"
 "3" is "(1 x 2) [2!] X 3"
 And so on. For any integer N greater than 1, we can say that the factorial of N is equal to the factorial of the previous number N multiplied by N. The formula N! = (N-1)! x N. Back to the list of factor of 1 to 6. Look in each case the terms are factorial of the previous number to notice. So you could say that a good practice is to find the factor in the outcome repeated.
-Turning this function in C, we can make a function that we pass a number, and you return the factorial:
+
 
 
