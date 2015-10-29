@@ -53,7 +53,7 @@ Imposes some structure on them
 Efficiently insert, remove and retrieve items
 
 
-Firts we need se some very important topics 
+Firts we need se some very important topics:
 
 #Recursion:
 
