@@ -27,9 +27,11 @@ Was very interesting learn more about swift. for me was very helpful the experie
 My muscle memory is creating the necessary knowledge to create fast Swift code. I'm very exciting to learn about use databases with Swift, because that will be a key topic for my possible project in the Swift course.
 
 
-My Topic to researching
+My Topic to researching:
 
 Collection Data Structures In Swift
+
+http://www.raywenderlich.com/79850/collection-data-structures-swift
 
 Update 04/21/2015: Updated for Xcode 6.3 and Swift 1.2.
 What kind of performance do you want from your data structure?
@@ -49,5 +51,35 @@ Without collection data structures, you’d be stuck trying to manage items one 
 Handle all those items as one entity
 Imposes some structure on them
 Efficiently insert, remove and retrieve items
+
+
+Firts we need se some very important topics 
+
+#Recursion:
+
+Recursion is a very important and good basic programming concept. However it is quite difficult to grasp at first. It is supposed to be something to be understood with practice and time.
+
+Certainly the best definition of recursion is found in the dictionary hacker:
+
+Recursion
+-see recursion.
+For example GNU is a recursive acronym (GNU's Not Unix), since the G in GNU means GNU, which means GNU G, and recursively ...
+Thinking recursively is complicated, and is not an intuitive process.
+
+In programming, a function is recursive when it calls itself. Below is an example to try to understand recursion. To me it suits me for my exam to practice algorithms in March. I hope it is understandable!
+
+One of the classic examples is the factorial of a number. Try to follow the reasoning explaining each step. For any positive integer N, N factorial (! Which is expressed as N) is the product (multiplication) of all integers less than him:
+
+1! = 1
+2! = 1 x 2 = 2
+3! = 1 x 2 x 3 = 6
+4! = 1 x 2 x 3 x 4 = 24
+5! = 1 x 2 x 3 x 4 x 5 = 120
+6! = 1 x 2 x 3 x 4 x 5 x 6 = 720
+Now, going carefully, you can see that the factorial of each issue includes the factor of all numbers before him. Written in brackets below right is a reference, not a mathematical level:
+"2!" It is "1 [1!] X 2"
+"3" is "(1 x 2) [2!] X 3"
+And so on. For any integer N greater than 1, we can say that the factorial of N is equal to the factorial of the previous number N multiplied by N. The formula N! = (N-1)! x N. Back to the list of factor of 1 to 6. Look in each case the terms are factorial of the previous number to notice. So you could say that a good practice is to find the factor in the outcome repeated.
+Turning this function in C, we can make a function that we pass a number, and you return the factorial:
 
 
