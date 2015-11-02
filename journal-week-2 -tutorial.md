@@ -1,35 +1,8 @@
-# PedroTrujilloV.github.io
-
-
-Journal, Week 2
 
 
 
 
-Objectives.
-
-After completing this assignment, you should…
-
-have an introductory understanding of Core Data and how to persist information in a database between runs of the app.
-
-
-Topics
-
-UIPopoverController
-UICollectionView
-Universal Apps
-In-class app: Collect 'Em All
-The HIG.
-
-
-Was very interesting learn more about swift. for me was very helpful the experience programming with Python because is a modern programing language to, I think much modern than Swift, and more easy to use.
-
-My muscle memory is creating the necessary knowledge to create fast Swift code. I'm very exciting to learn about use databases with Swift, because that will be a key topic for my possible project in the Swift course.
-
-
-
-
-#Recursion:
+# Tutorial Recursion:
 
 Recursion is a very important and good basic programming concept. However it is quite difficult to grasp at first. It is supposed to be something to be understood with practice and time.
 
@@ -85,13 +58,11 @@ int factorial (int n) {
      }
      return 1;
 }
-Well, this is my first attempt to explain what recursion in programming and how it works with an example. Another good example is the Fibonacci series, but it gives for further study because it has many interesting things. Also interesting is the Tower of Hanoi, it is quite interesting and classic when applying recursion.
+Well, this is my first attempt to explain what recursion in programming and how it works with an example. Another good example is the Fibonacci series, but it gives for further study because it has many interesting things. Also interesting is the Tower of Hanoi, it is quite interesting and classic when applying recursion. [2]
 
 
 
-for future:
-
-My Topic to researching:
+### For future:
 
 Collection Data Structures In Swift
 
@@ -114,10 +85,10 @@ There are many types of collection data structures, and each represents a specif
 Without collection data structures, you’d be stuck trying to manage items one by one. A collection allows you to:
 Handle all those items as one entity
 Imposes some structure on them
-Efficiently insert, remove and retrieve items
+Efficiently insert, remove and retrieve items [1]
 
 
-Firts we need se some very important topics:
+resources:
 
-http://www.raywenderlich.com/79850/collection-data-structures-swift
-http://picandocodigo.net/2008/recursividad-en-programacion/
+[1] http://www.raywenderlich.com/79850/collection-data-structures-swift
+[2] http://picandocodigo.net/2008/recursividad-en-programacion/
