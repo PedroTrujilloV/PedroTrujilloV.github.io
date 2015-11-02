@@ -3,9 +3,6 @@
 
 Journal, Week 2
 
-
-
-
 Objectives.
 
 After completing this assignment, you should…
