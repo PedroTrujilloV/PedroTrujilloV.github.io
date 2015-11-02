@@ -16,15 +16,21 @@ In programming, a function is recursive when it calls itself. Below is an exampl
 One of the classic examples is the factorial of a number. Try to follow the reasoning explaining each step. For any positive integer N, N factorial (! Which is expressed as N) is the product (multiplication) of all integers less than him:
 
 1! = 1
+
 2! = 1 x 2 = 2
+
 3! = 1 x 2 x 3 = 6
+
 4! = 1 x 2 x 3 x 4 = 24
+
 5! = 1 x 2 x 3 x 4 x 5 = 120
+
 6! = 1 x 2 x 3 x 4 x 5 x 6 = 720
 
 Now, going carefully, you can see that the factorial of each issue includes the factor of all numbers before him. Written in brackets below right is a reference, not a mathematical level:
 
 "2!" It is "1 [1!] X 2"
+
 "3" is "(1 x 2) [2!] X 3"
 
 And so on. For any integer N greater than 1, we can say that the factorial of N is equal to the factorial of the previous number N multiplied by N. The formula N! = (N-1)! x N. Back to the list of factor of 1 to 6. Look in each case the terms are factorial of the previous number to notice. So you could say that a good practice is to find the factor in the outcome repeated.
@@ -32,8 +38,11 @@ And so on. For any integer N greater than 1, we can say that the factorial of N 
 Turning this function in C, we can make a function that we pass a number, and you return the factorial:
 
 int factorial (int n) {
+
 return n * factorial (n - 1);
+
 }
+
 Here we have our first recursive function. But if you compile the code and run the small program, we get a beautiful violation segment.
 
 The problem is that the function defined above never ends, will continue subtracting 1 to N forever. We will always be able to subtract 1 for any n, so the function will continue to run itself forever. Moreover, for any positive number n factorial will return 0, for any multiplication with 0 as term returns 0. subtract 1 recursively to any positive integer, will eventually give zero.
