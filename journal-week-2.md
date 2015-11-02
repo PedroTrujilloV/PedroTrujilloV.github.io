@@ -27,11 +27,75 @@ Was very interesting learn more about swift. for me was very helpful the experie
 My muscle memory is creating the necessary knowledge to create fast Swift code. I'm very exciting to learn about use databases with Swift, because that will be a key topic for my possible project in the Swift course.
 
 
+
+
+#Recursion:
+
+Recursion is a very important and good basic programming concept. However it is quite difficult to grasp at first. It is supposed to be something to be understood with practice and time.
+
+Certainly the best definition of recursion is found in the dictionary hacker:
+
+Recursion
+-see recursion.
+For example GNU is a recursive acronym (GNU's Not Unix), since the G in GNU means GNU, which means GNU G, and recursively ...
+Thinking recursively is complicated, and is not an intuitive process.
+
+In programming, a function is recursive when it calls itself. Below is an example to try to understand recursion. To me it suits me for my exam to practice algorithms in March. I hope it is understandable!
+
+One of the classic examples is the factorial of a number. Try to follow the reasoning explaining each step. For any positive integer N, N factorial (! Which is expressed as N) is the product (multiplication) of all integers less than him:
+
+1! = 1
+2! = 1 x 2 = 2
+3! = 1 x 2 x 3 = 6
+4! = 1 x 2 x 3 x 4 = 24
+5! = 1 x 2 x 3 x 4 x 5 = 120
+6! = 1 x 2 x 3 x 4 x 5 x 6 = 720
+
+Now, going carefully, you can see that the factorial of each issue includes the factor of all numbers before him. Written in brackets below right is a reference, not a mathematical level:
+
+"2!" It is "1 [1!] X 2"
+"3" is "(1 x 2) [2!] X 3"
+
+And so on. For any integer N greater than 1, we can say that the factorial of N is equal to the factorial of the previous number N multiplied by N. The formula N! = (N-1)! x N. Back to the list of factor of 1 to 6. Look in each case the terms are factorial of the previous number to notice. So you could say that a good practice is to find the factor in the outcome repeated.
+
+Turning this function in C, we can make a function that we pass a number, and you return the factorial:
+
+int factorial (int n) {
+return n * factorial (n - 1);
+}
+Here we have our first recursive function. But if you compile the code and run the small program, we get a beautiful violation segment.
+
+The problem is that the function defined above never ends, will continue subtracting 1 to N forever. We will always be able to subtract 1 for any n, so the function will continue to run itself forever. Moreover, for any positive number n factorial will return 0, for any multiplication with 0 as term returns 0. subtract 1 recursively to any positive integer, will eventually give zero.
+For the recursive function is complete, in addition to call itself, you need a way to end a condition.
+By definition, the factorial of 1 is 1 (1! = 1) and the factorial of 0 (0! = 1) is also 1. So we can implement this condition so that the function is not endless.
+Thus, the definition of the recursive function has called itself, and the condition for stopping.
+
+int factorial (int n) {
+     if n == 1 {
+          return 1;
+     } Else {
+          return n * factorial (n-1);
+     }
+}
+Or a while:
+
+int factorial (int n) {
+     while (n! = 1) {
+          return n * factorial (n-1);
+     }
+     return 1;
+}
+Well, this is my first attempt to explain what recursion in programming and how it works with an example. Another good example is the Fibonacci series, but it gives for further study because it has many interesting things. Also interesting is the Tower of Hanoi, it is quite interesting and classic when applying recursion.
+
+
+
+for future:
+
 My Topic to researching:
 
 Collection Data Structures In Swift
 
-http://www.raywenderlich.com/79850/collection-data-structures-swift
+
 
 Update 04/21/2015: Updated for Xcode 6.3 and Swift 1.2.
 What kind of performance do you want from your data structure?
@@ -55,31 +119,5 @@ Efficiently insert, remove and retrieve items
 
 Firts we need se some very important topics:
 
-#Recursion:
-
-Recursion is a very important and good basic programming concept. However it is quite difficult to grasp at first. It is supposed to be something to be understood with practice and time.
-
-Certainly the best definition of recursion is found in the dictionary hacker:
-
-Recursion
--see recursion.
-For example GNU is a recursive acronym (GNU's Not Unix), since the G in GNU means GNU, which means GNU G, and recursively ...
-Thinking recursively is complicated, and is not an intuitive process.
-
-In programming, a function is recursive when it calls itself. Below is an example to try to understand recursion. To me it suits me for my exam to practice algorithms in March. I hope it is understandable!
-
-One of the classic examples is the factorial of a number. Try to follow the reasoning explaining each step. For any positive integer N, N factorial (! Which is expressed as N) is the product (multiplication) of all integers less than him:
-
-1! = 1
-2! = 1 x 2 = 2
-3! = 1 x 2 x 3 = 6
-4! = 1 x 2 x 3 x 4 = 24
-5! = 1 x 2 x 3 x 4 x 5 = 120
-6! = 1 x 2 x 3 x 4 x 5 x 6 = 720
-Now, going carefully, you can see that the factorial of each issue includes the factor of all numbers before him. Written in brackets below right is a reference, not a mathematical level:
-"2!" It is "1 [1!] X 2"
-"3" is "(1 x 2) [2!] X 3"
-And so on. For any integer N greater than 1, we can say that the factorial of N is equal to the factorial of the previous number N multiplied by N. The formula N! = (N-1)! x N. Back to the list of factor of 1 to 6. Look in each case the terms are factorial of the previous number to notice. So you could say that a good practice is to find the factor in the outcome repeated.
-
-
-
+http://www.raywenderlich.com/79850/collection-data-structures-swift
+http://picandocodigo.net/2008/recursividad-en-programacion/
