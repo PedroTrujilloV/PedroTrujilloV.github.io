@@ -1,106 +1,108 @@
 {
     "SKILLS": {
-      "Curious": 0.9,
-      "Team Player": 0.9,
-      "Team Building": 0.9,
-      "Leadership & Mentorship": 0.9,
-      "Collaborative Problem Solving": 0.9,
-      "Critical Thinking": 0.9,
-      "Time Management": 0.9,
-      "Quick Learning": 0.9
-    },
-    "Industry Knowledge": {
-      "Apple": {
-        "iOS, tvOS & watchOS Software Engineering": 0.9,
-        "Swift": 0.9,
-        "Objective-C": 0.9,
-        "UIKit & SwiftUI": 0.9,
-        "Cocoa & Cocoa Touch": 0.9,
-        "Combine Framework": 0.9,
-        "Core Bluetooth": 0.9,
-        "HealthKit": 0.9,
-        "GCD": 0.9,
-        "Protocols and Delegates": 0.9,
-        "Concurrency": 0.9,
-        "Core Data": 0.9,
-        "ARKit": 0.9,
-        "Core ML": 0.9,
-        "Metal": 0.9
-      }
-    },
-    "Artificial Intelligence": {
-      "Machine Learning": 0.9,
-      "Artificial Neural Networks": 0.9,
-      "Linear Algebra": 0.9,
-      "Probability": 0.9,
-      "Statistics": 0.9,
-      "Derivative Calculus": 0.9,
-      "Optimization": 0.9,
-      "Gradient Descent": 0.9,
-      "Classification": 0.9,
-      "Regression": 0.9,
-      "Forward Propagation": 0.9,
-      "Backward Propagation": 0.9,
-      "Python": 0.9,
-      "NumPy": 0.9,
-      "Scikit-learn": 0.9,
-      "Pandas": 0.9,
-      "Scipy": 0.9
-    },
-    "Software Engineering": {
-      "Agile": 0.9,
-      "Scrum": 0.9,
-      "SDLC & UML": 0.9,
-      "Clean Code": 0.9,
-      "Clean Architecture": 0.9,
-      "SOLID": 0.9,
-      "Architectural Design Patterns": 0.9,
-      "MVVM": 0.9,
-      "Publisher- Subscriber": 0.9,
-      "Service-Oriented Design": 0.9,
-      "Dependency Injection & Coordinator": 0.9,
-      "TDD & Unit Testing": 0.9,
-      "Debugging": 0.9,
-      "Source Control with Git": 0.9,
-      "CI/CD": 0.9
-    },
-    "Network": {
-      "HTTP": 0.9,
-      "TCP": 0.9,
-      "UDP": 0.9,
-      "SSH": 0.9,
-      "RESTful APIs": 0.9,
-      "JSON": 0.9
-    },
-    "Computer Science": {
-      "Algorithms": 0.9,
-      "Data Structures": 0.9,
-      "Object-Oriented Programming": 0.9,
-      "Inheritance": 0.9,
-      "Polymorphism": 0.9,
-      "Functional Reactive Programming": 0.9,
-      "Computational Thinking": 0.9
-    },
-    "Full Stack Web Development (rusty)": {
-      "Front End": {
-        "Mobile First": 0.9,
-        "Responsive Design": 0.9,
-        "HTML5": 0.9,
-        "CSS": 0.9,
-        "JavaScript": 0.9,
-        "jQuery": 0.9,
-        "Bootstrap": 0.9,
-        "Angular JS": 0.9,
-        "Ember JS": 0.9
+      "Interpersonal": {
+        "Curious": 0.9,
+        "Team Player": 0.9,
+        "Team Building": 0.9,
+        "Leadership & Mentorship": 0.9,
+        "Collaborative Problem Solving": 0.9,
+        "Critical Thinking": 0.9,
+        "Time Management": 0.9,
+        "Quick Learning": 0.9
       },
-      "Backend": {
-        "PHP": 0.9,
-        "GoLang": 0.9,
-        "Micro-services": 0.9,
-        "Containerization": 0.9,
-        "Docker": 0.9,
-        "Load Balancing": 0.9,
-        "Kubernetes": 0.9
+      "Industry Knowledge": {
+        "Apple": {
+          "iOS, tvOS & watchOS Software Engineering": 0.9,
+          "Swift": 0.9,
+          "Objective-C": 0.9,
+          "UIKit & SwiftUI": 0.9,
+          "Cocoa & Cocoa Touch": 0.9,
+          "Combine Framework": 0.9,
+          "Core Bluetooth": 0.9,
+          "HealthKit": 0.9,
+          "GCD": 0.9,
+          "Protocols and Delegates": 0.9,
+          "Concurrency": 0.9,
+          "Core Data": 0.9,
+          "ARKit": 0.9,
+          "Core ML": 0.9,
+          "Metal": 0.9
+        }
+      },
+      "Artificial Intelligence": {
+        "Machine Learning": 0.9,
+        "Artificial Neural Networks": 0.9,
+        "Linear Algebra": 0.9,
+        "Probability": 0.9,
+        "Statistics": 0.9,
+        "Derivative Calculus": 0.9,
+        "Optimization": 0.9,
+        "Gradient Descent": 0.9,
+        "Classification": 0.9,
+        "Regression": 0.9,
+        "Forward Propagation": 0.9,
+        "Backward Propagation": 0.9,
+        "Python": 0.9,
+        "NumPy": 0.9,
+        "Scikit-learn": 0.9,
+        "Pandas": 0.9,
+        "Scipy": 0.9
+      },
+      "Software Engineering": {
+        "Agile": 0.9,
+        "Scrum": 0.9,
+        "SDLC & UML": 0.9,
+        "Clean Code": 0.9,
+        "Clean Architecture": 0.9,
+        "SOLID": 0.9,
+        "Architectural Design Patterns": 0.9,
+        "MVVM": 0.9,
+        "Publisher- Subscriber": 0.9,
+        "Service-Oriented Design": 0.9,
+        "Dependency Injection & Coordinator": 0.9,
+        "TDD & Unit Testing": 0.9,
+        "Debugging": 0.9,
+        "Source Control with Git": 0.9,
+        "CI/CD": 0.9,
+        "Network": {
+          "HTTP": 0.9,
+          "TCP": 0.9,
+          "UDP": 0.9,
+          "SSH": 0.9,
+          "RESTful APIs": 0.9,
+          "JSON": 0.9
+        }
+      },
+      "Computer Science": {
+        "Algorithms": 0.9,
+        "Data Structures": 0.9,
+        "Object-Oriented Programming": 0.9,
+        "Inheritance": 0.9,
+        "Polymorphism": 0.9,
+        "Functional Reactive Programming": 0.9,
+        "Computational Thinking": 0.9
+      },
+      "Full Stack Web Development (rusty)": {
+        "Front End": {
+          "Mobile First": 0.9,
+          "Responsive Design": 0.9,
+          "HTML5": 0.9,
+          "CSS": 0.9,
+          "JavaScript": 0.9,
+          "jQuery": 0.9,
+          "Bootstrap": 0.9,
+          "Angular JS": 0.9,
+          "Ember JS": 0.9
+        },
+        "Backend": {
+          "PHP": 0.9,
+          "GoLang": 0.9,
+          "Micro-services": 0.9,
+          "Containerization": 0.9,
+          "Docker": 0.9,
+          "Load Balancing": 0.9,
+          "Kubernetes": 0.9
+        }
       },
       "Data Bases": {
         "SQL": 0.9,
@@ -177,5 +179,59 @@
         "Jira": 0.9
       }
     },
-    "LANGUAGES": ["English", "Spanish"]
+    "LANGUAGES": ["English", "Spanish"],
+    "COURSES & CERTIFICATES": {
+      "Mathematics for Machine Learning and Data Science Specialization": {
+        "date": "7/2023",
+        "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/9N4HH6YDDY9N"
+      },
+      "Calculus for Machine Learning & Data Science": {
+        "date": "7/2023",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/MMHZPJUHTS94"
+      },
+      "Linear Algebra for Machine Learning & Data Science": {
+        "date": "6/2023",
+        "link": "https://coursera.org/share/cc1c94b28e6b80b9317d984fa3fbbe0b"
+      },
+      "Probability & Statistics for Machine Learning & Data Science": {
+        "date": "6/2023",
+        "link": "https://coursera.org/share/d11e4977c5a9c03211e44e0c524b2391"
+      },
+      "Mobile Engineering With iOS, The Iron Yard": {
+        "date": "1/2016",
+        "link": "https://www.dropbox.com/s/n2xn9c2zztilixi/TheIronYardCert.pdf?dl=0"
+      },
+      "Introduction to Computer Science and Programming Using Python, MIT, edX": {
+        "date": "6/2015",
+        "link": "https://s3.amazonaws.com/verify.edx.org/downloads/39880995a68844699f65a4396618e1a3/Certificate.pdf"
+      },
+      "Introduction to Bootstrap, Microsoft, edX": {
+        "date": "8/2015",
+        "link": "https://s3.amazonaws.com/verify.edx.org/downloads/4454f1e061584318aa9bbd3affd16dfe/Certificate.pdf"
+      },
+      "Computer Graphics, UCSanDiego, edX": {
+        "date": "10/2015",
+        "link": "https://courses.edx.org/certificates/7c9257a6848c4be68fd34c1781bf8ce9"
+      },
+      "3D Geodatabase Design and Terrain Modeling, Elbit Systems Ltd - Israel": {
+        "date": "11/2013",
+        "link": "https://www.dropbox.com/s/4ck87s8mzdmrv1i/ElbitSystemsVisualGeodatabaseCert.pdf?dl=0"
+      },
+      "SIMbox Software Development, SimiGon Inc - USA": {
+        "date": "2/2013",
+        "link": "https://www.dropbox.com/s/0o3dq0w1fi5k9wd/SimigonDeveloperCert.pdf?dl=0"
+      },
+      "SIMbox Graphic Engine (3D Art), SimiGon Inc - USA": {
+        "date": "2/2013",
+        "link": "https://www.dropbox.com/s/j3poh1o0igyd2mr/SimigonArtCert.pdf?dl=0"
+      },
+      "AutoCAD 3D, SENA": {
+        "date": "9/2012",
+        "link": "http://certificados.sena.edu.co/guardar.asp?var1=953200396387CC1121834946C"
+      },
+      "Basic Computer Drawing, AutoCAD 2D, SENA": {
+        "date": "6/2012",
+        "link": "http://certificados.sena.edu.co/guardar.asp?var1=953200381854CC1121834946C"
+      }
+    }
   }
