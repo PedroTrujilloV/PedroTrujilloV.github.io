@@ -13,68 +13,117 @@ const ResumeSection = {
 const ResumeSkillType = {
     Interpersonal: "Interpersonal",
     IndustryKnowledge: "Industry Knowledge",
+    // SkillsSubgroup: "SkillsSubgroup",
 }
 
 
 function fetchSkills(key, value) {
     console.log("- fetchSkills: "); 
-    // console.log(key, value);
+    var skillsContainer = this.document.getElementById("skillsContainer");
+
     Object.entries(value).forEach(([skilltype, value]) => {
         // console.log(skilltype, value);
+
         switch(skilltype) {
             case ResumeSkillType.Interpersonal:
-
-                // var skillsContainer = this.document.getElementById("skillsContainer");
-                // skillsContainer.classList.add("row", "skills-content");
-                // skillsContainer.id = "skillsContainer";
-
-                // Create the first column <div>
-                // const col1 = document.createElement("div");
-                // col1.classList.add("col-lg-6");
-                // col1.setAttribute("data-aos", "fade-up");
-
-                var col1 = this.document.getElementById("skilColumns")
                 
-                // Create a heading <h4>
-                var heading1 = document.createElement("h3");
+                var heading1 = document.createElement("h2");
                 heading1.textContent = skilltype;
-                col1.appendChild(heading1)
+                skillsContainer.appendChild(heading1)
 
                 Object.entries(value).forEach(([skill, value]) => {
-                    //console.log(skill, value);
+                    // Create the first column <div>
+                    var col1 = document.createElement("div");
+                    col1.classList.add( "col-lg-4"); // ,col-lg-6
+                    col1.setAttribute("data-aos", "fade-up");
                     addSkillToColumn(col1,skill, value * 100 )
+                    skillsContainer.appendChild(col1);
                  });
-                //  skillsContainer.appendChild(col1);
-              break;
+                 
+                 break;
             case ResumeSkillType.IndustryKnowledge:
-                var col1 = this.document.getElementById("skilColumns")
-                
-                // Create a heading <h4>
-                var heading1 = document.createElement("h3");
-                heading1.textContent = skilltype;
-                console.log(skilltype + " ------- ");
-                col1.appendChild(heading1)
-
-                Object.entries(value).forEach(([skillSubType, value]) => {
-                    const heading2 = document.createElement("h4");
-                    headin2.textContent = skillSubType;
-                    col1.appendChild(heading2)
-
-                    Object.entries(value).forEach(([skill, value]) => {
-                        console.log(skill, value);
-                        addSkillToColumn(col1,skill, value * 100 )
-                     });
-                 });
-
-                
-                //  skillsContainer.appendChild(col1);
+                // sortSkillsByColumns(skillsContainer,skilltype,value);
+                sortSkillsByRows(skillsContainer,skilltype,value);
+               
               break;
             default:
-              // code block
-              break;
+                break;
           }
      })
 };
+
+function sortSkillsByRows(skillsContainer,skilltype,value) {
+    var heading1 = document.createElement("h2");
+    heading1.textContent = skilltype;
+    skillsContainer.appendChild(heading1)
+
+    Object.entries(value).forEach(([skill, value]) => {
+        var heading2 = document.createElement("h3");
+        heading2.textContent = skill;
+        skillsContainer.appendChild(heading2)
+        Object.entries(value).forEach(([skill, value]) => {
+
+            if(typeof value === "object") {
+                var heading3 = document.createElement("h5");
+                heading3.textContent = skill;
+                skillsContainer.appendChild(heading3);
+                Object.entries(value).forEach(([skill, value]) => {
+                    var col1 = document.createElement("div");
+                    col1.classList.add( "col-lg-4"); // ,col-lg-6
+                    col1.setAttribute("data-aos", "fade-up");
+                    addSkillToColumn(col1,skill, value * 100 )
+                    skillsContainer.appendChild(col1);
+                });
+            } else {
+                var col1 = document.createElement("div");
+                col1.classList.add( "col-lg-4"); // ,col-lg-6
+                col1.setAttribute("data-aos", "fade-up");
+                addSkillToColumn(col1,skill, value * 100 )
+                skillsContainer.appendChild(col1);
+            }
+        });
+     });
+}
+
+function sortSkillsByColumns(skillsContainer,skilltype,value) {
+     // Create a heading <h3>
+     var heading1 = document.createElement("h3");
+     heading1.textContent = skilltype;
+     console.log(skilltype + " ------- ");
+     skillsContainer.appendChild(heading1)
+
+     Object.entries(value).forEach(([skillSubType, value]) => {
+         // Create the first column <div>
+         var col1 = document.createElement("div");
+         col1.classList.add( "col-lg-4"); // ,col-lg-6
+         col1.setAttribute("data-aos", "fade-up");
+
+         var heading2 = document.createElement("h4");
+         heading2.textContent = skillSubType;
+         col1.appendChild(heading2)
+         skillsContainer.appendChild(col1);
+
+         Object.entries(value).forEach(([skill, value]) => {
+             console.log(skill, value);
+             if (typeof value === "object") {
+                 // fetchSkills("", value)
+                 var heading3 = document.createElement("h5");
+                 heading3.textContent = skill;
+                 var col2 = document.createElement("div");
+                 col2.classList.add( "col-lg-8"); // ,col-lg-6
+                 col2.setAttribute("data-aos", "fade-up");
+                 col2.appendChild(heading3);
+                 Object.entries(value).forEach(([skill, value]) => {
+                     addSkillToColumn(col2,skill, value * 100 );
+                 });
+
+                 col1.appendChild(col2);
+             } else {
+                 addSkillToColumn(col1,skill, value * 100 )
+             }
+          });
+      });
+}
 
 
 
@@ -111,7 +160,7 @@ function addSkillToColumn(column, skillName, skillPercentage) {
 
 
 
-fetch('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io/main/data/resume.json')
+fetch('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io/resumeSkillsUpdate/data/resume.json')//('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io/main/data/resume.json')
     .then(response => response.json())
     .then(function(data) {
         console.log("- data: "); 
