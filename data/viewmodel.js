@@ -160,7 +160,7 @@ function addSkillToColumn(column, skillName, skillPercentage) {
 
 
 
-fetch('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io/resumeSkillsUpdate/data/resume.json')//('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io/main/data/resume.json')
+fetch('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io/main/data/resume.json')
     .then(response => response.json())
     .then(function(data) {
         console.log("- data: "); 
