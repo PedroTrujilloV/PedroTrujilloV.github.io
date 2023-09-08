@@ -466,6 +466,11 @@ section {
   background-color: #149ddd;
 }
 
+.skills h2 h3 h4 {
+  /* line-height: 80px !important; */
+  margin-bottom: 2% !important;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
