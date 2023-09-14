@@ -8,6 +8,7 @@ const ResumeSection = {
     SKILLS: "SKILLS",
     SOFTWARE: "SOFTWARE",
     LANGUAGES: "LANGUAGES",
+    COURSES_CERTIFICATES: "COURSES & CERTIFICATES",
 }
 
 const ResumeSkillType = {
@@ -158,6 +159,50 @@ function addSkillToColumn(column, skillName, skillPercentage) {
   column.appendChild(progressDiv);
 }
 
+function fetchCoursesAndCertificates(key, certifications) {
+    // Get the certifications container element by its class name
+    // const certificationsContainer = document.querySelector(".col-lg-12[data-aos='fade-up'] .resume-items");
+
+    var certificationsContainer = this.document.getElementById("certificationsContainer");
+
+    Object.entries(certifications).forEach(([name, certification]) => {
+       // Loop through the certifications and create HTML elements dynamically
+        // Create a new certification item div
+        const div = document.createElement("div");
+        
+        // div.setAttribute("data-aos", "fade-up");
+        div.className = "resume-item"; 
+        // div.classList.add("col-lg-6"); 
+        // div.classList.add("pb-0"); 
+    
+        // Create an anchor element for the certification link
+        const link = document.createElement("a");
+        link.href = certification.link;
+        link.textContent = name;
+    
+        // Create an h4 element for the certification name and append the link
+        const nameHeading = document.createElement("h4");
+        nameHeading.appendChild(link);
+    
+        // Create an h5 element for the certification date
+        const dateHeading = document.createElement("h5");
+        dateHeading.textContent = certification.date;
+    
+        // Create a p element for the issuing organization
+        const organizationParagraph = document.createElement("p");
+        organizationParagraph.innerHTML = `<em>by ${certification.organization}</em>`;
+    
+        // Append all elements to the certification item div
+        div.appendChild(nameHeading);
+        div.appendChild(dateHeading);
+        div.appendChild(organizationParagraph);
+    
+        // Append the certification item div to the certifications container
+        certificationsContainer.appendChild(div);
+     });
+
+}
+
 
 
 fetch('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io/main/data/resume.json')
@@ -171,8 +216,9 @@ fetch('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io
                 fetchSkills(key, value)
             }
 
+            if (key == ResumeSection.COURSES_CERTIFICATES) {
+                fetchCoursesAndCertificates(key, value)
+            }
+
          });
-        // $("#text").text(data[1].text);
-        // $("#author").text(data[1].author);
-    })
-    .catch(error => console.log(error));
+    }) .catch(error => console.log(error)) ;
