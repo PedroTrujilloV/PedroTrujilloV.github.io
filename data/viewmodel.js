@@ -190,7 +190,7 @@ function fetchCoursesAndCertificates(key, certifications) {
     
         // Create a p element for the issuing organization
         const organizationParagraph = document.createElement("p");
-        organizationParagraph.innerHTML = `<em>by ${certification.organization}</em>`;
+        organizationParagraph.innerHTML = `<em>${certification.organization}</em>`;
     
         // Append all elements to the certification item div
         div.appendChild(nameHeading);
