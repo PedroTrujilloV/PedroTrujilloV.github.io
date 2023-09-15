@@ -223,50 +223,50 @@
         "link": "https://coursera.org/share/d11e4977c5a9c03211e44e0c524b2391",
          "organization": "DeepLearning.ai"
       },
-      "Mobile Engineering With iOS, The Iron Yard": {
+      "Mobile Engineering With iOS": {
         "date": "1/2016",
         "link": "https://www.dropbox.com/s/n2xn9c2zztilixi/TheIronYardCert.pdf?dl=0",
          "organization": "The Iron Yard"
       },
-      "Introduction to Computer Science and Programming Using Python, MIT, edX": {
+      "Introduction to Computer Science and Programming Using Python": {
         "date": "6/2015",
         "link": "https://s3.amazonaws.com/verify.edx.org/downloads/39880995a68844699f65a4396618e1a3/Certificate.pdf",
          "organization": "MIT, edX"
       },
-      "Introduction to Bootstrap, Microsoft, edX": {
+      "Introduction to Bootstrap": {
         "date": "8/2015",
         "link": "https://s3.amazonaws.com/verify.edx.org/downloads/4454f1e061584318aa9bbd3affd16dfe/Certificate.pdf",
          "organization": "Microsoft, edX"
       },
-      "Computer Graphics, UCSanDiego, edX": {
+      "Computer Graphics": {
         "date": "10/2015",
         "link": "https://courses.edx.org/certificates/7c9257a6848c4be68fd34c1781bf8ce9",
          "organization": "UCSanDiego, edX"
       },
-      "3D Geodatabase Design and Terrain Modeling, Elbit Systems Ltd - Israel": {
+      "3D Geodatabase Design and Terrain Modeling": {
         "date": "11/2013",
         "link": "https://www.dropbox.com/s/4ck87s8mzdmrv1i/ElbitSystemsVisualGeodatabaseCert.pdf?dl=0",
          "organization": "Elbit Systems Ltd - Israel"
       },
-      "SIMbox Software Development, SimiGon Inc - USA": {
+      "SIMbox Software Development": {
         "date": "2/2013",
         "link": "https://www.dropbox.com/s/0o3dq0w1fi5k9wd/SimigonDeveloperCert.pdf?dl=0",
          "organization": "SimiGon Inc - USA"
       },
-      "SIMbox Graphic Engine (3D Art), SimiGon Inc - USA": {
+      "SIMbox Graphic Engine (3D Art)": {
         "date": "2/2013",
         "link": "https://www.dropbox.com/s/j3poh1o0igyd2mr/SimigonArtCert.pdf?dl=0",
          "organization": "SimiGon Inc - USA"
       },
-      "AutoCAD 3D, SENA": {
+      "AutoCAD 3D": {
         "date": "9/2012",
         "link": "http://certificados.sena.edu.co/guardar.asp?var1=953200396387CC1121834946C",
-         "organization": "SENA"
+         "organization": "SENA - Colombia"
       },
-      "Basic Computer Drawing, AutoCAD 2D, SENA": {
+      "Basic Computer Drawing, AutoCAD 2D": {
         "date": "6/2012",
         "link": "http://certificados.sena.edu.co/guardar.asp?var1=953200381854CC1121834946C",
-         "organization": "SENA"
+         "organization": "SENA - Colombia"
       }
     }
   }
