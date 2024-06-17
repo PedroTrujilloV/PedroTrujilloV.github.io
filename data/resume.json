@@ -203,6 +203,11 @@
     },
     "LANGUAGES": ["English", "Spanish"],
     "COURSES & CERTIFICATES": {
+      "Generative AI with Large Language Models": {
+        "date": "02/2024",
+        "link": "https://www.coursera.org/account/accomplishments/verify/7QCBC6K78HGD",
+         "organization": "DeepLearning.ai, AWS"
+      },
       "Mathematics for Machine Learning and Data Science Specialization": {
         "date": "7/2023",
         "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/9N4HH6YDDY9N",
