@@ -1143,3 +1143,12 @@ section {
   /* overflow: visible;  */ /* Ensures content can grow beyond 400px if necessary */
 }
 
+/*--------------------------------------------------------------
+# Portfolio Index item (Pedro)
+--------------------------------------------------------------*/
+
+.portfolio-item-no-image {
+  font-size: 1200%;
+  text-align: center;
+  background-color: white;
+}
