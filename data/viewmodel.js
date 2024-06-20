@@ -398,8 +398,7 @@ fetch('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io
             }
 
             if (key == ResumeSection.PORTFOLIO) {
-                //console.log(ResumeSection.PORTFOLIO, portfolioData);
-                createPortfolioSection(portfolioData)
+                createPortfolioSection(value)
             }
 
          });

@@ -65,7 +65,12 @@
           "NumPy": 0.6,
           "Scikit-learn": 0.6,
           "Pandas": 0.6,
-          "Scipy": 0.6
+          "Scipy": 0.6,
+          "Generative AI": 0.2,
+          "Fine Tuning": 0.2,
+          "LRHF": 0.1,
+          "LoRA": 0.1,
+          "PPO": 0.1
         },
         "Software Engineering": {
           "Agile": 0.8,
