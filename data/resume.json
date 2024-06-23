@@ -311,8 +311,8 @@
           {
             "title": "CO2 Characterization by Country",
             "category": "Machine Learning, Clustering, K-means, Silhouette method",
-            "nbviewerLink": "https://nbviewer.org/github/PedroTrujilloV/MLStuff/blob/main/main/CO2CharacterizationbyCountry_en.ipynb",
-            "githubLink": "https://github.com/PedroTrujilloV/MLStuff/blob/main/main/CO2CharacterizationbyCountry_en.ipynb",
+            "nbviewerLink": "https://nbviewer.org/github/PedroTrujilloV/MLStuff/blob/main/CO2CharacterizationbyCountry_en.ipynb",
+            "githubLink": "https://github.com/PedroTrujilloV/MLStuff/blob/main/CO2CharacterizationbyCountry_en.ipynb",
             "imageSrc": "https://github.com/PedroTrujilloV/MLStuff/blob/main/assets/dataset-cover3.jpg?raw=true",
             "description": "In this last part of the project we will address the problem of determining the pattern of use of fossil fuels in countries to establish action plans that will mitigate their effects and generate alarms about pollution levels."
           }
