@@ -1,3 +1,17 @@
+// Use this code only for testing localy json Objects
+// const resume_draft = `{}` // Replace here with your copied json
+// const localData = JSON.parse(resume_draft);
+// const fakeFetch = () => {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve({
+//         json: () => Promise.resolve(localData) // Mimics real fetch()
+//       });
+//     }, 500); // ⏳ 500ms delay (adjust as needed)
+//   });
+// };
+
+
 class Resume {
     constructor(dataURL) {
       this.dataURL = dataURL;
@@ -13,8 +27,8 @@ const ResumeSection = {
 }
 
 const ResumeSkillType = {
-    Interpersonal: "Interpersonal",
-    IndustryKnowledge: "Industry Knowledge",
+    Interpersonal:  {name: "Interpersonal", quantify: false},
+    IndustryKnowledge: {name: "Industry Knowledge", quantify: false},
     // SkillsSubgroup: "SkillsSubgroup",
 }
 
@@ -27,7 +41,7 @@ function fetchSkills(key, value) {
         // console.log(skilltype, value);
 
         switch(skilltype) {
-            case ResumeSkillType.Interpersonal:
+            case ResumeSkillType.Interpersonal.name:
                 
                 var heading1 = document.createElement("h2");
                 heading1.textContent = skilltype;
@@ -38,12 +52,12 @@ function fetchSkills(key, value) {
                     var col1 = document.createElement("div");
                     col1.classList.add( "col-lg-4"); // ,col-lg-6
                     col1.setAttribute("data-aos", "fade-up");
-                    addSkillToColumn(col1,skill, value * 100 )
+                    addSkillToColumn(col1,skill, value * 100, ResumeSkillType.Interpersonal.quantify)
                     skillsContainer.appendChild(col1);
                  });
                  
                  break;
-            case ResumeSkillType.IndustryKnowledge:
+            case ResumeSkillType.IndustryKnowledge.name:
                 // sortSkillsByColumns(skillsContainer,skilltype,value);
                 sortSkillsByRows(skillsContainer,skilltype,value);
                
@@ -73,14 +87,14 @@ function sortSkillsByRows(skillsContainer,skilltype,value) {
                     var col1 = document.createElement("div");
                     col1.classList.add( "col-lg-4"); // ,col-lg-6
                     col1.setAttribute("data-aos", "fade-up");
-                    addSkillToColumn(col1,skill, value * 100 )
+                    addSkillToColumn(col1,skill, value * 100 , ResumeSkillType.IndustryKnowledge.quantify)
                     skillsContainer.appendChild(col1);
                 });
             } else {
                 var col1 = document.createElement("div");
                 col1.classList.add( "col-lg-4"); // ,col-lg-6
                 col1.setAttribute("data-aos", "fade-up");
-                addSkillToColumn(col1,skill, value * 100 )
+                addSkillToColumn(col1,skill, value * 100 , ResumeSkillType.IndustryKnowledge.quantify)
                 skillsContainer.appendChild(col1);
             }
         });
@@ -130,34 +144,48 @@ function sortSkillsByColumns(skillsContainer,skilltype,value) {
 
 
 // Create a function to add a skill with percentage and value to the column
-function addSkillToColumn(column, skillName, skillPercentage) {
-  const progressDiv = document.createElement("div");
-  progressDiv.classList.add("progress");
+function addSkillToColumn(column, skillName, skillPercentage, quantify= true) {
 
   const skillSpan = document.createElement("span");
   skillSpan.classList.add("skill");
-  skillSpan.textContent = skillName + " ";
+  skillSpan.textContent = skillName + " ";  
 
-  const skillPercentageElement = document.createElement("i");
-  skillPercentageElement.classList.add("val");
-  skillPercentageElement.textContent = skillPercentage + "%";
+  if ( quantify == true) {
+    const progressDiv = document.createElement("div");
+    progressDiv.classList.add("progress");
+    const skillPercentageElement = document.createElement("i");
+    skillPercentageElement.classList.add("val");
+    skillPercentageElement.textContent = skillPercentage + "%";
 
-  skillSpan.appendChild(skillPercentageElement);
+    skillSpan.appendChild(skillPercentageElement);
 
-  const progressBarWrap = document.createElement("div");
-  progressBarWrap.classList.add("progress-bar-wrap");
+    const progressBarWrap = document.createElement("div");
+    progressBarWrap.classList.add("progress-bar-wrap");
 
-  const progressBar = document.createElement("div");
-  progressBar.classList.add("progress-bar");
-  progressBar.setAttribute("role", "progressbar");
-  progressBar.setAttribute("aria-valuenow", skillPercentage );
-  progressBar.setAttribute("aria-valuemin", "0");
-  progressBar.setAttribute("aria-valuemax", "100");
+    const progressBar = document.createElement("div");
+    progressBar.classList.add("progress-bar");
+    progressBar.setAttribute("role", "progressbar");
+    progressBar.setAttribute("aria-valuenow", skillPercentage );
+    progressBar.setAttribute("aria-valuemin", "0");
+    progressBar.setAttribute("aria-valuemax", "100");
 
-  progressBarWrap.appendChild(progressBar);
-  progressDiv.appendChild(skillSpan);
-  progressDiv.appendChild(progressBarWrap);
-  column.appendChild(progressDiv);
+    progressBarWrap.appendChild(progressBar);
+    progressDiv.appendChild(skillSpan);
+    progressDiv.appendChild(progressBarWrap);
+    column.appendChild(progressDiv);
+  }
+  else {
+    skillSpan.textContent = addBulletPoints(skillSpan.textContent)
+    // progressDiv.appendChild(skillSpan);
+    column.appendChild(skillSpan);
+    // column.appendChild(progressDiv);
+  }
+}
+
+function addBulletPoints(text, bulletChar = '\u2022 ') {
+  const lines = text.split('\n');
+  const bulletedText = lines.map(line => line ? bulletChar + line : '').join('\n');
+  return bulletedText;
 }
 
 function fetchCoursesAndCertificates(key, certifications) {
@@ -381,8 +409,9 @@ const portfolioData = [
       ]
     }
   ];  
-
+  
 fetch('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io/main/data/resume.json')
+//fakeFetch() // uncomment this to use with the local json
     .then(response => response.json())
     .then(function(data) {
         console.log("- data: "); 
@@ -403,3 +432,4 @@ fetch('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io
 
          });
     }) .catch(error => console.log(error)) ;
+
