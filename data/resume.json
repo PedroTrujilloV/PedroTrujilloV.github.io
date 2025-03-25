@@ -152,6 +152,7 @@
           },
 
           "Machine Learning": {
+            "ML Lifecycle": 0.8,
             "Regression": 0.7,
             "Linear": 0.8,                         
             "Polynomial": 0.7,
