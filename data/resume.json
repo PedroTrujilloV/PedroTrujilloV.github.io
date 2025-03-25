@@ -11,41 +11,48 @@
         "Quick Learning": 0.9
       },
       "Industry Knowledge": {
-        "Artificial Intelligence": {
+        "Artificial Intelligence 🔥": {
           "Python": 0.9,
           "Deep Learning": {
-            "Autoencoder (Encoder - Dencoder)": 0.7,
-            "Feedforward Neural Network": 0.8,
+            "Feedforward Neural Network (FNN)": 0.8,
             "Multilayer Perceptron (MLP)": 0.8,
             "Convolutional Neural Network (CNN)": 0.7,
-            "Recurrent Neural Network (LSTM)": 0.7,
-            "Generative Adversarial Networks (GANs)": 0.6,
+            "Recurrent Neural Network (RNN/LSTM)": 0.7,
             "Transformers": 0.7,
+            "Latent Space Representation": 0.7,
+            "Generative Models (Gen AI)": 0.6,
+            "Computer Vision (CV)": 0.7,
             "Reinforcement Learning (RL)": 0.3
           },
 
           "Transformer Architecture": {
-            "Encoder/Dencoder Archiectures": 0.6,
-            "Positional Embeddings": 0.7,
-            "Attention Head (QKV) Architecture": 0.6,
-            "Normalization": 0.7,
-            "Residual Connections": 0.7,
-            "Masking": 0.4,
-            "MLP Head": 0.8
+            "Encoder-Decoder Architecture": 0.6,  
+            "Attention Mechanism (QKV)": 0.8,     
+            "Positional Embeddings": 0.7,         
+            "Layer Normalization": 0.7,           
+            "Residual Connections": 0.7,          
+            "Feedforward Network (MLP Block)": 0.8,  
+            "Masking (Causal/Padding)": 0.5,      
+            "Latent Space": 0.5                   
           },
 
           "LLMs": {
             "BERT": 0.6,
-            "GPT-3": 0.4,
+            "GPT": 0.4,
             "LLAMA": 0.1,
             "Low-Rank Adaptation (LoRA)": 0.1,
             "Proximal Policy Optimization (PPO)": 0.1,
             "Retrieval Augmented Generation (RAG)": 0.1
           },
 
-          "Generative AI": {
-            "Generative Adversarial Networks (GANs) Archiecture": 0.6,
-            "Diffusion Models": 0.4
+          "Generative Models": {
+            "Autoencoders (Basic)": 0.7,                      
+            "Variational Autoencoders (VAEs)": 0.8,         
+            "Latent Space Manipulation": 0.7,                
+            "Generative Adversarial Networks (GANs)": 0.7,   
+            "Diffusion Models": 0.5,                         
+            "Encoder-Decoder Architecture": 0.6,             
+            "Normalizing Flows": 0.1                         
           },
           
           "AI Ethics & Safety": {
@@ -54,8 +61,11 @@
           },
 
           "Computer Vision": {
-            "HOG-SVM & Bootstrapping": 0.7,
+            "Vision Transformer (ViT) Architecture": 0.7,
             "Convolutional Neural Network Architecture": 0.7,
+            "AlexNet": 0.4,
+            "ResNet": 0.3,
+            "HOG-SVM & Bootstrapping": 0.7,
             "Image Classification": 0.7, 
             "Image/Object Detection ": 0.7, 
             "Faster R-CNN": 0.5,
@@ -67,17 +77,17 @@
             "Panoptic Segmentation": 0.7,
             "U-Net": 0.5,
             "Segment Anything (SAM)": 0.7,
-            "Vision Transformer (ViT) Architecture": 0.7,
-            "AlexNet": 0.5,
-            "ResNet": 0.3,
-            "Multimodal Models": 0.6,
+            "Multimodal Models": 0.5,
             "Contrastive Language-Image Pre-training (CLIP)": 0.6,
-            "DINOv2": 0.4,
-            "Caltech 101": 0.7,
-            "ImageNet": 0.7,
-            "CIFAR100": 0.5
+            "DINOv2": 0.2
           },
-          
+
+          "Benchmark Datasets": {
+            "ImageNet": 0.5,  
+            "COCO": 0.5,
+            "CIFAR-10/100": 0.4,
+            "Caltech 101": 0.7
+          },
 
           "Natural Language Processing (NLP)": {
             "Stopword Removal and Normalization": 0.8,
@@ -85,31 +95,27 @@
             "Stemming": 0.7,
             "Lemmatization": 0.7,
             "Inverted Index": 0.7,
-            "Information Retrieval": 0.5,
+            "Information Retrieval (IR)": 0.5,
             "Ranked Retrieval": 0.5,
             "Vector-Based Retrieval": 0.5,
             "P@K, R@K, Average Precision & MAP Metrics": 0.5,
             "DCG, NDCG Metrics": 0.5,
-            "N-gram Probability Estimation": 0.5,
             "N-gram Language Models": 0.5,
-            "Vector-based Semantic Search": 0.5,
-            "Dense Embeddings": 0.5,
-            "Word2Vec": 0.6,
+            "N-gram Probability Estimation": 0.5,
+            "Smoothing (Laplace/Kneser-Ney)": 0.4,
+            "Semantic Vector-Based Methods": 0.5,
+            "TF-IDF": 0.6,  
+            "Negative-sampling with Skip-gram": 0.6,
+            "Word2Vec (Skip-gram/CBOW)": 0.6,
+            "GloVe": 0.4,
             "Doc2Vec": 0.6,
-            "Negative-sampling with Skip-gram": 0.6
-          },
-          
-          "Learning Types": {
-            "Supervised Learning": 0.8,
-            "Weakly Supervised Learning": 0.6,
-            "Unsupervised Learning": 0.8,
-            "Self-supervised Learning": 0.6,
-            "Transfer Learning": 0.6,
-            "Pre-training": 0.6,
-            "Fine Tuning": 0.3,
-            "Few-shot Learning": 0.6,
-            "Zero-shot Learning": 0.6,
-            "Reinforcement Learning (RL)": 0.3
+            "Dense Embeddings": 0.5,
+            "Text Generation": 0.5,
+            "BLEU/ROUGE Metrics": 0.5,
+            "Transformer-Based Models": 0.7,
+            "BERT": 0.7, 
+            "GPT Architecture": 0.6,
+            "Sequence-to-Sequence Models": 0.6
           },
 
           "Evaluation Metrics": {
@@ -119,8 +125,11 @@
             "F1-score": 0.7,
             "Confusion Matrix": 0.7,
             "ROC": 0.4,
+            "MSE/R² (Regression)": 0.5 ,
+            "Ranked Metrics (P@K, MAP, NDCG)": 0.6,  
+            "MRR (Mean Reciprocal Rank)": 0.4, 
             "Silhouette Coefficient (Clustering)": 0.7,
-            "Intersection Over Union (IOU)": 0.4
+            "Intersection Over Union (IoU) (Segmentation)": 0.4
           },
 
           "AI/ML Math": {
@@ -128,70 +137,131 @@
             "Probability": 0.8,
             "Statistics": 0.7,
             "Derivative Calculus": 0.8,
-            "Stochastic Gradient Descent": 0.7,
             "Optimization": 0.7,
-            "Cross Entropy Loss": 0.6,
+            "Stochastic Gradient Descent": 0.7,
+            "Adam": 0.5,
+            "Loss Functions": 0.6,
+            "Cross-Entropy": 0.7,                 
+            "MSE (Regression)": 0.5,
             "Activation Functions": 0.7,
-            "Forward Propagation": 0.6,
+            "RELU": 0.7,
+            "Sigmoid": 0.7,
+            "GELU": 0.3,
+            "Forward Propagation": 0.7,
             "Backward Propagation": 0.6
           },
 
           "Machine Learning": {
-            "Linear Regression": 0.7,
-            "Polynomial Regression": 0.7,
-            "Logistic Regression": 0.5,
+            "Regression": 0.7,
+            "Linear": 0.8,                         
+            "Polynomial": 0.7,
+            "Regularization (L1/L2)": 0.6,        
             "Binary Classification": 0.5,
             "Multi-class Classification": 0.5,
-            "Naive Bayes": 0.5,
+            "Logistic Regression": 0.6,           
             "Support Vector Machines (SVMs)": 0.5,
-            "Kernels": 0.5,
+            "Kernels": 0.5,                
+            "Naive Bayes": 0.5,
             "Ensemble Methods": 0.7,
             "Decision Trees": 0.7,
+            "Random Forest": 0.7,
             "AdaBoost": 0.7,
             "XGBoost": 0.7,
-            "Random Forest": 0.7,
             "Clustering": 0.5,
             "K-nearest Neighbors": 0.5,
             "DBSCAN": 0.5,
-            "Agglomerative Clustering": 0.5,
-            "Hyperparameter Search": 0.5,
+            "Hierarchical/Agglomerative Clustering": 0.5,
             "Regularization": 0.5,
             "Bias and Variance Handling": 0.5,
-            "Cross Validation": 0.5
+            "Cross Validation": 0.5,
+            "Hyperparameter Tuning": 0.5,
+            "Grid/Random Search": 0.5,
+            "Bayesian Optimization": 0.4
           },
 
-          "Data Preparation": {
+          "Learning Types": {
+            "Supervised Learning": 0.9,                     
+            "Unsupervised Learning": 0.8,
+            "Reinforcement Learning (RL)": 0.5,            
+            "Self-Supervised Learning": 0.7,                
+            "Weakly Supervised Learning": 0.6,
+            "Transfer Learning": 0.6,
+            "Pre-training": 0.7,                         
+            "Fine-Tuning": 0.5,
+            "Few-Shot Learning": 0.7,                      
+            "Zero-Shot Learning": 0.6,
+            "Meta-Learning": 0.1                           
+          },
+
+          "Data Preparation s": {
             "Null, Nan, & Invalid data cleaning": 0.7,
             "Use of Data Dictionary": 0.7,
+            "Imputing Techniques": 0.7,
             "Imbalanced Data Preparation": 0.7,
-            "Resampling Techniques": 0.7,
             "Oversampling": 0.7,
             "Undersampling": 0.7,
             "Synthetic Minority Over-sampling Technique (SMOTE)": 0.7,
             "Class Weighting": 0.7,
-            "Data Augmentation": 0.7
+            "Data Augmentation": 0.7,
+            "Pipelines": 0.7
           },
 
-          "Frameworks and APIs": {
+          "Data Preparation": {
+            "Handling Missing Data": 0.8,
+            "Null/NaN/Invalid Cleaning": 0.8,            
+            "Imputation (Mean/Median/ML-based)": 0.8,  
+            "Data Dictionary": 0.7,                        
+            "Imbalanced Data Handling": 0.7,            
+            "Resampling Techniques (Oversampling/Undersampling)": 0.8,
+            "SMOTE": 0.8,                                
+            "Class Weighting": 0.7,
+            "Data Augmentation": 0.7,
+            "Image (Rotation/Flip)": 0.7,
+            "Text (Synonym Replacement)": 0.6,
+            "Feature Engineering Pipelines": 0.8,          
+            "Outlier Detection": 0.6                       
+          },
+
+          "Reinforcement Learning (RL)": {
+            "Reward Modeling": 0.3,
+            "Proximal Policy Optimization (PPO)": 0.1
+          },
+
+          "Frameworks & APIs": {
             "NumPy": 0.7,
             "Scikit-learn": 0.7,
             "Pandas": 0.7,
             "Scipy": 0.7,
-            "Gensim": 0.7,
-            "NLTK": 0.7,
             "PyTorch": 0.7,
             "TensorFlow": 0.7,
-            "Imblearn": 0.7,
             "Keras": 0.7,
-            "JAX": 0.1
+            "JAX": 0.1,
+            "Hugging Face Transformers": 0.7,
+            "Gensim": 0.7,
+            "NLTK": 0.7,
+            "Stanza": 0.5,
+            "XGBoost/LightGBM": 0.7,
+            "Imbalanced-learn": 0.7,
+            "OpenCV": 0.4,
+            "Kaggle": 0.5,
+            "Dask": 0.4,
+            "Joblib": 0.6
+          },
+
+          "Datasets": {
+            "MNIST": 0.6,                
+            "CIFAR-10": 0.6,                
+            "Kaggle Datasets": 0.7
           },
 
           "Cloud Platforms": {
-            "AWS SageMaker": 0.2
+            "AWS SageMaker": 0.2,
+            "Colab Pro": 0.6 
           },
 
-          "Deployment": {
-            "Docker":0.5
+          "Deployment ❄️": {
+            "Docker":0.5,
+            "Kubernetes":0.4
           },
 
           "Edge AI": {
@@ -200,18 +270,23 @@
             "Embedded Systems": 0.3
           },
 
-          "Reinforcement Learning (RL)": {
-            "Proximal Policy Optimization (PPO)": 0.1
-          },
-
           "Agents": 0.2,
+
+          "Communities": {
+            "arXiv (papers)": 0.4, 
+            "Hugging Face": 0.5,
+            "Kaggle": 0.5,
+            "GitHub (open-source models)": 0.3
+          },
 
           "Other": {
             "Semantic Web": 0.3,
-            "Ontologies": 0.4
+            "Ontologies": 0.4,
+            "Jupiter Notebooks": 0.9,
+            "Google colab": 0.8
           }
         },
-        "Apple (rusty)": {
+        "Apple ❄️": {
           "iOS Software Engineering": 0.9,
           "tvOS Software Engineering": 0.9,
           "watchOS Software Engineering": 0.9,
@@ -257,6 +332,7 @@
             "JSON": 0.9
           }
         },
+
         "Computer Science": {
           "Algorithms": 0.9,
           "Data Structures": 0.9,
@@ -266,6 +342,7 @@
           "Functional Reactive Programming": 0.9,
           "Computational Thinking": 0.9
         },
+
         "Full Stack Web Development": {
           "Front End": {
             "Mobile First": 0.9,
@@ -298,7 +375,7 @@
           "GraphQL": 0.8,
           "Apollo": 0.9
         },
-        "Design": {
+        "Design ❄️": {
           "UI/UX": 0.9,
           "Apple’s Human Interface Guidelines": 0.9,
           "Google Material Design": 0.9,
@@ -313,7 +390,7 @@
           "Vectors": 0.9,
           "CAD": 0.9
         },
-        "Gaming and Simulation (rusty)": {
+        "Gaming and Simulation ❄️": {
           "C++": 0.9,
           "C": 0.9,
           "Pointers": 0.9,
@@ -330,19 +407,22 @@
     },
     "SOFTWARE": {
       "Development": {
+        "Jupiter Notebooks": 0.9,
+        "Google colab": 0.8,
+        "AWS SageMaker": 0.2,
+        "Visual Studio Code": 0.9,
         "Xcode": 0.9,
         "Xcode CLT": 0.9,
         "Homebrew": 0.9,
         "Xcode Instruments": 0.9,
-        "Star UML": 0.9,
+        "Terminal": 0.9,
         "GitHub": 0.9,
         "Bitrise": 0.9,
         "Fastlane": 0.9,
         "Jenkins": 0.9,
-        "Visual Studio Code": 0.9,
         "MySQL Workbench": 0.9,
         "Google Chrome DevTools": 0.9,
-        "Terminal": 0.9
+        "Star UML": 0.9
       },
       "Design": {
         "Figma": 0.9,
