@@ -176,9 +176,7 @@ function addSkillToColumn(column, skillName, skillPercentage, quantify= true) {
   }
   else {
     skillSpan.textContent = addBulletPoints(skillSpan.textContent)
-    // progressDiv.appendChild(skillSpan);
     column.appendChild(skillSpan);
-    // column.appendChild(progressDiv);
   }
 }
 
@@ -272,7 +270,7 @@ function createPortfolioSection(portfolio) {
     sectionTitle.classList.add('section-title');
     sectionTitle.innerHTML = `
       <h2>Portfolio</h2>
-      <p>This contains some samples of my work and study in fields like iOS Software Engineering, Artificial Intelligence and Machine Learning, Gaming, Simulation, Web development, and more.</p>
+      <p>This contains some samples of my work and study in fields like Artificial Intelligence and Machine Learning, iOS Software Engineering, Gaming, Simulation, Web development, and more.</p>
     `;
     portfolioDetails.appendChild(sectionTitle);
   

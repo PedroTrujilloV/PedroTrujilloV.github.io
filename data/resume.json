@@ -152,6 +152,7 @@
           },
 
           "Machine Learning": {
+            "ML Lifecycle": 0.8,
             "Regression": 0.7,
             "Linear": 0.8,                         
             "Polynomial": 0.7,
@@ -191,19 +192,6 @@
             "Few-Shot Learning": 0.7,                      
             "Zero-Shot Learning": 0.6,
             "Meta-Learning": 0.1                           
-          },
-
-          "Data Preparation s": {
-            "Null, Nan, & Invalid data cleaning": 0.7,
-            "Use of Data Dictionary": 0.7,
-            "Imputing Techniques": 0.7,
-            "Imbalanced Data Preparation": 0.7,
-            "Oversampling": 0.7,
-            "Undersampling": 0.7,
-            "Synthetic Minority Over-sampling Technique (SMOTE)": 0.7,
-            "Class Weighting": 0.7,
-            "Data Augmentation": 0.7,
-            "Pipelines": 0.7
           },
 
           "Data Preparation": {

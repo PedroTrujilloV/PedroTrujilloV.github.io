@@ -1197,3 +1197,16 @@ section {
   text-align: center;
   background-color: white;
 }
+
+/*--------------------------------------------------------------
+# Hero Index  (Pedro)
+--------------------------------------------------------------*/
+#hero h1 {
+  z-index: 2;
+}
+@media (min-width: 1024px) {
+  .hero-container {
+      max-width: 60%;
+      margin-left: 2%;
+  }
+}
