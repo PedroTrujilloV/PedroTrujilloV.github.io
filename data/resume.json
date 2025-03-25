@@ -11,7 +11,207 @@
         "Quick Learning": 0.9
       },
       "Industry Knowledge": {
-        "Apple": {
+        "Artificial Intelligence": {
+          "Python": 0.9,
+          "Deep Learning": {
+            "Autoencoder (Encoder - Dencoder)": 0.7,
+            "Feedforward Neural Network": 0.8,
+            "Multilayer Perceptron (MLP)": 0.8,
+            "Convolutional Neural Network (CNN)": 0.7,
+            "Recurrent Neural Network (LSTM)": 0.7,
+            "Generative Adversarial Networks (GANs)": 0.6,
+            "Transformers": 0.7,
+            "Reinforcement Learning (RL)": 0.3
+          },
+
+          "Transformer Architecture": {
+            "Encoder/Dencoder Archiectures": 0.6,
+            "Positional Embeddings": 0.7,
+            "Attention Head (QKV) Architecture": 0.6,
+            "Normalization": 0.7,
+            "Residual Connections": 0.7,
+            "Masking": 0.4,
+            "MLP Head": 0.8
+          },
+
+          "LLMs": {
+            "BERT": 0.6,
+            "GPT-3": 0.4,
+            "LLAMA": 0.1,
+            "Low-Rank Adaptation (LoRA)": 0.1,
+            "Proximal Policy Optimization (PPO)": 0.1,
+            "Retrieval Augmented Generation (RAG)": 0.1
+          },
+
+          "Generative AI": {
+            "Generative Adversarial Networks (GANs) Archiecture": 0.6,
+            "Diffusion Models": 0.4
+          },
+          
+          "AI Ethics & Safety": {
+            "Fairness metrics": 0.3,
+            "Reinforcement Learning from Human Feedback (LRHF)": 0.2
+          },
+
+          "Computer Vision": {
+            "HOG-SVM & Bootstrapping": 0.7,
+            "Convolutional Neural Network Architecture": 0.7,
+            "Image Classification": 0.7, 
+            "Image/Object Detection ": 0.7, 
+            "Faster R-CNN": 0.5,
+            "YOLO": 0.5,
+            "Detection Transformers (DETR) Architecture": 0.6,
+            "Image Segmentation": 0.7,
+            "Semantic Segmentation": 0.7,
+            "Instance Segmentation": 0.7,
+            "Panoptic Segmentation": 0.7,
+            "U-Net": 0.5,
+            "Segment Anything (SAM)": 0.7,
+            "Vision Transformer (ViT) Architecture": 0.7,
+            "AlexNet": 0.5,
+            "ResNet": 0.3,
+            "Multimodal Models": 0.6,
+            "Contrastive Language-Image Pre-training (CLIP)": 0.6,
+            "DINOv2": 0.4,
+            "Caltech 101": 0.7,
+            "ImageNet": 0.7,
+            "CIFAR100": 0.5
+          },
+          
+
+          "Natural Language Processing (NLP)": {
+            "Stopword Removal and Normalization": 0.8,
+            "Tokenization": 0.8,
+            "Stemming": 0.7,
+            "Lemmatization": 0.7,
+            "Inverted Index": 0.7,
+            "Information Retrieval": 0.5,
+            "Ranked Retrieval": 0.5,
+            "Vector-Based Retrieval": 0.5,
+            "P@K, R@K, Average Precision & MAP Metrics": 0.5,
+            "DCG, NDCG Metrics": 0.5,
+            "N-gram Probability Estimation": 0.5,
+            "N-gram Language Models": 0.5,
+            "Vector-based Semantic Search": 0.5,
+            "Dense Embeddings": 0.5,
+            "Word2Vec": 0.6,
+            "Doc2Vec": 0.6,
+            "Negative-sampling with Skip-gram": 0.6
+          },
+          
+          "Learning Types": {
+            "Supervised Learning": 0.8,
+            "Weakly Supervised Learning": 0.6,
+            "Unsupervised Learning": 0.8,
+            "Self-supervised Learning": 0.6,
+            "Transfer Learning": 0.6,
+            "Pre-training": 0.6,
+            "Fine Tuning": 0.3,
+            "Few-shot Learning": 0.6,
+            "Zero-shot Learning": 0.6,
+            "Reinforcement Learning (RL)": 0.3
+          },
+
+          "Evaluation Metrics": {
+            "Accuracy": 0.7,
+            "Precision": 0.7,
+            "Recall": 0.7,
+            "F1-score": 0.7,
+            "Confusion Matrix": 0.7,
+            "ROC": 0.4,
+            "Silhouette Coefficient (Clustering)": 0.7,
+            "Intersection Over Union (IOU)": 0.4
+          },
+
+          "AI/ML Math": {
+            "Linear Algebra": 0.8,
+            "Probability": 0.8,
+            "Statistics": 0.7,
+            "Derivative Calculus": 0.8,
+            "Stochastic Gradient Descent": 0.7,
+            "Optimization": 0.7,
+            "Cross Entropy Loss": 0.6,
+            "Activation Functions": 0.7,
+            "Forward Propagation": 0.6,
+            "Backward Propagation": 0.6
+          },
+
+          "Machine Learning": {
+            "Linear Regression": 0.7,
+            "Polynomial Regression": 0.7,
+            "Logistic Regression": 0.5,
+            "Binary Classification": 0.5,
+            "Multi-class Classification": 0.5,
+            "Naive Bayes": 0.5,
+            "Support Vector Machines (SVMs)": 0.5,
+            "Kernels": 0.5,
+            "Ensemble Methods": 0.7,
+            "Decision Trees": 0.7,
+            "AdaBoost": 0.7,
+            "XGBoost": 0.7,
+            "Random Forest": 0.7,
+            "Clustering": 0.5,
+            "K-nearest Neighbors": 0.5,
+            "DBSCAN": 0.5,
+            "Agglomerative Clustering": 0.5,
+            "Hyperparameter Search": 0.5,
+            "Regularization": 0.5,
+            "Bias and Variance Handling": 0.5,
+            "Cross Validation": 0.5
+          },
+
+          "Data Preparation": {
+            "Null, Nan, & Invalid data cleaning": 0.7,
+            "Use of Data Dictionary": 0.7,
+            "Imbalanced Data Preparation": 0.7,
+            "Resampling Techniques": 0.7,
+            "Oversampling": 0.7,
+            "Undersampling": 0.7,
+            "Synthetic Minority Over-sampling Technique (SMOTE)": 0.7,
+            "Class Weighting": 0.7,
+            "Data Augmentation": 0.7
+          },
+
+          "Frameworks and APIs": {
+            "NumPy": 0.7,
+            "Scikit-learn": 0.7,
+            "Pandas": 0.7,
+            "Scipy": 0.7,
+            "Gensim": 0.7,
+            "NLTK": 0.7,
+            "PyTorch": 0.7,
+            "TensorFlow": 0.7,
+            "Imblearn": 0.7,
+            "Keras": 0.7,
+            "JAX": 0.1
+          },
+
+          "Cloud Platforms": {
+            "AWS SageMaker": 0.2
+          },
+
+          "Deployment": {
+            "Docker":0.5
+          },
+
+          "Edge AI": {
+            "TensorFlow Lite":0.2, 
+            "Core ML":0.7,
+            "Embedded Systems": 0.3
+          },
+
+          "Reinforcement Learning (RL)": {
+            "Proximal Policy Optimization (PPO)": 0.1
+          },
+
+          "Agents": 0.2,
+
+          "Other": {
+            "Semantic Web": 0.3,
+            "Ontologies": 0.4
+          }
+        },
+        "Apple (rusty)": {
           "iOS Software Engineering": 0.9,
           "tvOS Software Engineering": 0.9,
           "watchOS Software Engineering": 0.9,
@@ -30,47 +230,6 @@
           "ARKit": 0.7,
           "Core ML": 0.7,
           "Metal": 0.6
-        },
-        "Artificial Intelligence": {
-          "Machine Learning": 0.3,
-          "Artificial Neural Networks": 0.3,
-          "AI Ethics": 0.4,
-          "Computer Vision": 0.3,
-          "NLP (Natural Language Processing)": 0.3,
-          "Semantic Web": 0.3,
-          "Ontologies": 0.4,
-          "Embedded Systems": 0.3,
-          "Linear Algebra": 0.7,
-          "Probability": 0.7,
-          "Statistics": 0.7,
-          "Derivative Calculus": 0.7,
-          "Optimization": 0.7,
-          "Gradient Descent": 0.7,
-          "Linear Regression": 0.5,
-          "Polynomial Regression": 0.5,
-          "Logistic Regression": 0.5,
-          "Hyperparameter Search": 0.5,
-          "Regularization (Ridge and Lasso)": 0.5,
-          "Bias and Variance": 0.5,
-          "Learning Curves": 0.5,
-          "Curve Validation": 0.5,
-          "Decision Trees": 0.5,
-          "K-nearest Neighbors": 0.5,
-          "Binary Classification": 0.5,
-          "Multi-class Classification": 0.5,
-          "Forward Propagation": 0.6,
-          "Backward Propagation": 0.6,
-          "Python": 0.9,
-          "Data Preparation": 0.7,
-          "NumPy": 0.6,
-          "Scikit-learn": 0.6,
-          "Pandas": 0.6,
-          "Scipy": 0.6,
-          "Generative AI": 0.2,
-          "Fine Tuning": 0.2,
-          "LRHF": 0.1,
-          "LoRA": 0.1,
-          "PPO": 0.1
         },
         "Software Engineering": {
           "Agile": 0.8,
@@ -107,7 +266,7 @@
           "Functional Reactive Programming": 0.9,
           "Computational Thinking": 0.9
         },
-        "Full Stack Web Development (rusty)": {
+        "Full Stack Web Development": {
           "Front End": {
             "Mobile First": 0.9,
             "Responsive Design": 0.9,
