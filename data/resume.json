@@ -509,7 +509,7 @@
     "PORTFOLIO": [
       {
         "category": "AI 🤖",
-        "description": "These are some small samples of Data Science, Machine Learning and Deep Learning projects I have worked in the past:",
+        "description": "These are some small samples of Data Science, Machine Learning and Deep Learning projects I have worked in the past. ⚠️Note: Is outdated, I apologize, I have a butt-load of AI projects (Transformers, Difusion, CV, NLP, LLMs, NN, CNN, RNN, etc) waiting for me to have some time to add them here 😓, I promise to add them soon 🤞🏼:",
         "projects": [
           {
             "title": "House Price Prediction Model",
