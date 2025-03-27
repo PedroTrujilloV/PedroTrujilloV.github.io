@@ -351,7 +351,7 @@ function createPortfolioSection(portfolio) {
 
 
 
-// 1. Your existing data loading function (unchanged)
+// 1. Existing data loading function (unchanged)
 function loadResumeData() {
   return fetch('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io/main/data/resume.json')
   // return fakeFetch() // uncomment this to use with the local json for testing only
@@ -362,7 +362,7 @@ function loadResumeData() {
     });
 }
 
-// 2. Your existing processing functions (unchanged)
+// 2.  Existing processing functions (unchanged)
 function processData(data) {
   Object.entries(data).forEach(([key, value]) => {
     if (key == ResumeSection.SKILLS) {
