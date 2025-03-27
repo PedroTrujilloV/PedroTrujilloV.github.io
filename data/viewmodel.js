@@ -7,7 +7,7 @@
 //       resolve({
 //         json: () => Promise.resolve(localData) // Mimics real fetch()
 //       });
-//     }, 500); // ⏳ 500ms delay (adjust as needed)
+//     }, 1200); // ⏳ 500ms delay (adjust as needed)
 //   });
 // };
 
@@ -324,110 +324,98 @@ function createPortfolioSection(portfolio) {
     portfolioSection.appendChild(portfolioDetails);
   }
 
-
-const portfolioData = [
-    {
-      "category": "AI 🤖",
-      "description": "These are some small samples of Data Science, Machine Learning and Deep Learning projects I have worked in the past:",
-      "projects": [
-        {
-          "title": "House Price Prediction Model",
-          "category": "Machine Learning, Linear Regression",
-          "nbviewerLink": "https://nbviewer.org/github/PedroTrujilloV/MLStuff/blob/79e3a676ca5e1e8a748b669f8a2933e1c3b757af/LinearRegression_Eng.ipynb",
-          "githubLink": "https://github.com/PedroTrujilloV/MLStuff/blob/79e3a676ca5e1e8a748b669f8a2933e1c3b757af/LinearRegression_Eng.ipynb",
-          "imageSrc": "./assets/img/portfolio/MLLifeCycle.1.jpeg",
-          "description": "In this example, we will learn some of the basic steps in the machine learning life cycle, such as exploratory data analysis, data preparation, model building (in this case, creating a linear regression model and training it), and finally, model evaluation with some performance metrics. There are other steps that are important in the machine learning life cycle as well, but for the purposes of this example, we are going to focus on the mentioned ones."
-        },
-        {
-          "title": "Bicycle Rentals Prediction Model",
-          "category": "Machine Learning, Lasso & Polynomial Regression",
-          "nbviewerLink": "https://nbviewer.org/github/PedroTrujilloV/MLStuff/blob/202fa61faf2e86466d69c20951207f4a17a4dde8/BicycleRentals_en.ipynb",
-          "githubLink": "https://github.com/PedroTrujilloV/MLStuff/blob/202fa61faf2e86466d69c20951207f4a17a4dde8/BicycleRentals_en.ipynb",
-          "imageSrc": "https://github.com/PedroTrujilloV/MLStuff/blob/main/assets/dataset-cover.png?raw=true",
-          "description": "This project is related to environmental risk management. In this context, one of the problems that we are going to address is how to build a predictive model that allows us to determine the demand for the use of a bicycle rental system. This knowledge can provide support to improve the service and know the factors that affect its efficiency. Promoting sustainable mobility plans is a way to reduce CO2 emissions, which affect the planet's temperature and unbalance the natural cycle."
-        },
-        {
-          "title": "Water Quality Estimator",
-          "category": "Machine Learning, decision trees & K-nearest neighbors, Pipelines",
-          "nbviewerLink": "https://nbviewer.org/github/PedroTrujilloV/MLStuff/blob/main/WaterMonitoring_en.ipynb",
-          "githubLink": "https://github.com/PedroTrujilloV/MLStuff/blob/main/WaterMonitoring_en.ipynb",
-          "imageSrc": "https://github.com/PedroTrujilloV/MLStuff/blob/9881d4af4a1ad2e652bbcbdb87f07d421400a893/assets/dataset-cover2.jpg?raw=true",
-          "description": "In this second part of the project we will work on another problem related to environmental management, in this case with the deterioration of the quality of bodies of water and how, with machine learning, we can support the implementation of mechanisms that allow monitoring and evaluating variations in the physicochemical characteristics of water, in order to preserve the quality of these ecosystems and guarantee the availability of fresh water for the human population."
-        },
-        {
-          "title": "CO2 Characterization by Country",
-          "category": "Machine Learning, Clustering, K-means, Silhouette method",
-          "nbviewerLink": "https://nbviewer.org/github/PedroTrujilloV/MLStuff/blob/main/main/CO2CharacterizationbyCountry_en.ipynb",
-          "githubLink": "https://github.com/PedroTrujilloV/MLStuff/blob/main/main/CO2CharacterizationbyCountry_en.ipynb",
-          "imageSrc": "https://github.com/PedroTrujilloV/MLStuff/blob/main/assets/dataset-cover3.jpg?raw=true",
-          "description": "In this last part of the project we will address the problem of determining the pattern of use of fossil fuels in countries to establish action plans that will mitigate their effects and generate alarms about pollution levels."
-        }
-      ]
-    },
-    {
-      "category": "Apple <i class='bi bi-apple'></i>",
-      "description": "These are some iOS, watchOS, and tvOS applications I have developed or worked in the past for several companies:",
-      "projects": [
-        {
-          "iframeSrc": "https://www.behance.net/embed/project/79252151?ilo0=1"
-        },
-        {
-          "iframeSrc": "https://www.behance.net/embed/project/79814603?ilo0=1"
-        },
-        {
-          "iframeSrc": "https://www.behance.net/embed/project/99974981?ilo0=1"
-        },
-        {
-          "iframeSrc": "https://www.behance.net/embed/project/199419623?ilo0=1"
-        }
-      ]
-    },
-    {
-      "category": "Gaming and Simulation 👾",
-      "description": "These are some Gaming and Simulation projects I have worked for some companies:",
-      "projects": [
-        {
-          "iframeSrc": "https://www.behance.net/embed/project/79379011?ilo0=1"
-        },
-        {
-          "iframeSrc": "https://www.behance.net/embed/project/79328971?ilo0=1"
-        }
-      ]
-    },
-    {
-      "category": "Miscellaneous",
-      "description": "These are some web, hardware and macOS development projects done for some companies:",
-      "projects": [
-        {
-          "iframeSrc": "https://www.behance.net/embed/project/100875107?ilo0=1"
-        },
-        {
-          "iframeSrc": "https://www.behance.net/embed/project/100814019?ilo0=1"
-        }
-      ]
-    }
-  ];  
   
-fetch('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io/main/data/resume.json')
-//fakeFetch() // uncomment this to use with the local json
+//// Old reliable one
+// fetch('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io/main/data/resume.json')
+// //fakeFetch() // uncomment this to use with the local json
+//     .then(response => response.json())
+//     .then(function(data) {
+//         console.log("- data: "); 
+//         // console.log(data); 
+//         Object.entries(data).forEach(([key, value]) => {
+//             // console.log(key, value);
+//             if (key == ResumeSection.SKILLS) {
+//                 fetchSkills(key, value)
+//             }
+
+//             if (key == ResumeSection.COURSES_CERTIFICATES) {
+//                 fetchCoursesAndCertificates(key, value)
+//             }
+
+//             if (key == ResumeSection.PORTFOLIO) {
+//                 createPortfolioSection(value)
+//             }
+
+//          });
+//     }) .catch(error => console.log(error)) ;
+
+
+
+// 1. Existing data loading function (unchanged)
+function loadResumeData() {
+  return fetch('https://raw.githubusercontent.com/PedroTrujilloV/PedroTrujilloV.github.io/main/data/resume.json')
+  // return fakeFetch() // uncomment this to use with the local json for testing only
     .then(response => response.json())
-    .then(function(data) {
-        console.log("- data: "); 
-        // console.log(data); 
-        Object.entries(data).forEach(([key, value]) => {
-            // console.log(key, value);
-            if (key == ResumeSection.SKILLS) {
-                fetchSkills(key, value)
-            }
+    .catch(error => {
+      console.error("Error loading resume data:", error);
+      throw error; // Re-throw to handle in main flow
+    });
+}
 
-            if (key == ResumeSection.COURSES_CERTIFICATES) {
-                fetchCoursesAndCertificates(key, value)
-            }
+// 2.  Existing processing functions (unchanged)
+function processData(data) {
+  Object.entries(data).forEach(([key, value]) => {
+    if (key == ResumeSection.SKILLS) {
+      fetchSkills(key, value);
+    }
+    if (key == ResumeSection.COURSES_CERTIFICATES) {
+      fetchCoursesAndCertificates(key, value);
+    }
+    if (key == ResumeSection.PORTFOLIO) {
+      createPortfolioSection(value);
+    }
+  });
+}
 
-            if (key == ResumeSection.PORTFOLIO) {
-                createPortfolioSection(value)
-            }
-
-         });
-    }) .catch(error => console.log(error)) ;
-
+// 3. Gentle initialization
+document.addEventListener('DOMContentLoaded', function() {
+  // Show loading overlay (Bootstrap spinner already visible)
+  
+  loadResumeData()
+    .then(data => {
+      // Process data
+      processData(data);
+      
+      // Brief delay for smooth transition (200ms)
+      return new Promise(resolve => setTimeout(resolve, 200));
+    })
+    .then(() => {
+      // Hide loading overlay
+      const overlay = document.getElementById('loadingOverlay');
+      overlay.style.opacity = '0';
+      overlay.style.transition = 'opacity 0.3s ease';
+      
+      // Show content
+      document.getElementById('pageContent').style.display = 'block';
+      
+      // Remove overlay after fadeout
+      setTimeout(() => overlay.remove(), 300);
+      
+      // Initialize animations if needed
+      if (typeof AOS !== 'undefined') AOS.init();
+    })
+    .catch(error => {
+      // Error handling with Bootstrap alert
+      const overlay = document.getElementById('loadingOverlay');
+      overlay.innerHTML = `
+        <div class="alert alert-danger">
+          <h4 class="alert-heading">Loading Error</h4>
+          <p>Failed to load resume data. Please try again later.</p>
+          <hr>
+          <button onclick="window.location.reload()" class="btn btn-danger">
+            Reload Page
+          </button>
+        </div>
+      `;
+    });
+});
