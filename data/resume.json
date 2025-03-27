@@ -90,6 +90,7 @@
           },
 
           "Natural Language Processing (NLP)": {
+            "NLP Lifecycle": 0.8,
             "Stopword Removal and Normalization": 0.8,
             "Tokenization": 0.8,
             "Stemming": 0.7,
@@ -144,9 +145,11 @@
             "Cross-Entropy": 0.7,                 
             "MSE (Regression)": 0.5,
             "Activation Functions": 0.7,
-            "RELU": 0.7,
+            "ReLU": 0.7,
             "Sigmoid": 0.7,
             "GELU": 0.3,
+            "SoftMax": 0.7,
+            "Arg max": 0.7,
             "Forward Propagation": 0.7,
             "Backward Propagation": 0.6
           },
@@ -177,7 +180,8 @@
             "Cross Validation": 0.5,
             "Hyperparameter Tuning": 0.5,
             "Grid/Random Search": 0.5,
-            "Bayesian Optimization": 0.4
+            "Bayesian Optimization": 0.4,
+            "Deep Learning": 0.7
           },
 
           "Learning Types": {
@@ -340,8 +344,8 @@
             "JavaScript": 0.7,
             "jQuery": 0.7,
             "Bootstrap": 0.8,
-            "Angular JS": 0.5,
-            "Ember JS": 0.6
+            "Angular JS❄️": 0.5,
+            "Ember JS❄️": 0.6
           },
           "Backend": {
             "PHP": 0.8,
