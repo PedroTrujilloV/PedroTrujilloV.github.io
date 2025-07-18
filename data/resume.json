@@ -22,7 +22,7 @@
             "Latent Space Representation": 0.7,
             "Generative Models (Gen AI)": 0.6,
             "Computer Vision (CV)": 0.7,
-            "Reinforcement Learning (RL)": 0.3,
+            "Reinforcement Learning (RL)": 0.3
           },
 
           "Transformer Architecture": {
@@ -289,9 +289,7 @@
             "Embedded Systems": 0.3,
             "Quantization": 0.7
           },
-
-          "Agents": 0.5,
-
+          
           "Communities": {
             "arXiv (papers)": 0.4, 
             "Hugging Face": 0.5,
@@ -480,7 +478,7 @@
          "organization": "NVIDIA"
       },
       "Fundamentals of Deep Learning": {
-        "date": "03/2024",
+        "date": "03/2025",
         "link": "https://learn.nvidia.com/certificates?id=Lsw5D7M3Q76rQxRpkJjGMw",
          "organization": "NVIDIA"
       },
