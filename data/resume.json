@@ -37,12 +37,12 @@
           },
 
           "LLMs": {
-            "BERT": 0.6,
-            "GPT": 0.4,
-            "LLAMA": 0.1,
-            "Low-Rank Adaptation (LoRA)": 0.1,
-            "Proximal Policy Optimization (PPO)": 0.1,
-            "Retrieval Augmented Generation (RAG)": 0.1
+            "BERT": 0.7,
+            "GPT": 0.7,
+            "LLAMA": 0.8,
+            "Low-Rank Adaptation (LoRA)": 0.8,
+            "Proximal Policy Optimization (PPO)": 0.7,
+            "Retrieval Augmented Generation (RAG)": 0.8
           },
 
           "Generative Models": {
@@ -82,17 +82,11 @@
             "DINOv2": 0.2
           },
 
-          "Benchmark Datasets": {
-            "ImageNet": 0.5,  
-            "COCO": 0.5,
-            "CIFAR-10/100": 0.4,
-            "Caltech 101": 0.7
-          },
-
           "Natural Language Processing (NLP)": {
             "NLP Lifecycle": 0.8,
             "Stopword Removal and Normalization": 0.8,
             "Tokenization": 0.8,
+            "RegExp": 0.5,
             "Stemming": 0.7,
             "Lemmatization": 0.7,
             "Inverted Index": 0.7,
@@ -130,7 +124,8 @@
             "Ranked Metrics (P@K, MAP, NDCG)": 0.6,  
             "MRR (Mean Reciprocal Rank)": 0.4, 
             "Silhouette Coefficient (Clustering)": 0.7,
-            "Intersection Over Union (IoU) (Segmentation)": 0.4
+            "Intersection Over Union (IoU) (Segmentation)": 0.4,
+            "Perplexity Score": 0.5
           },
 
           "AI/ML Math": {
@@ -198,6 +193,16 @@
             "Meta-Learning": 0.1                           
           },
 
+          "Fine-Tuning": {
+            "Conservative Fine-Tuning": 0.9,                     
+            "Layer-wise Fine-Tuning": 0.9, 
+            "Bias-Term Fine-Tuning": 0.8,
+            "Parameter-Efficient Fine-Tuning (PEFT)": 0.7,
+            "Adapters": 0.7,
+            "Low-Rank Adaptation (LoRA)": 0.7,
+            "Quantization": 0.7               
+          },
+
           "Data Preparation": {
             "Handling Missing Data": 0.8,
             "Null/NaN/Invalid Cleaning": 0.8,            
@@ -216,7 +221,8 @@
 
           "Reinforcement Learning (RL)": {
             "Reward Modeling": 0.3,
-            "Proximal Policy Optimization (PPO)": 0.1
+            "Proximal Policy Optimization (PPO)": 0.1,
+            "Agents": 0.5
           },
 
           "Frameworks & APIs": {
@@ -224,7 +230,7 @@
             "Scikit-learn": 0.7,
             "Pandas": 0.7,
             "Scipy": 0.7,
-            "PyTorch": 0.7,
+            "PyTorch": 0.8,
             "TensorFlow": 0.7,
             "Keras": 0.7,
             "JAX": 0.1,
@@ -237,13 +243,26 @@
             "OpenCV": 0.4,
             "Kaggle": 0.5,
             "Dask": 0.4,
-            "Joblib": 0.6
+            "Joblib": 0.6,
+            "Langchain": 0.5,
+            "Gemini API": 0.5,
+            "OpenAI API": 0.6,
+            "NVIDIA API": 0.3
+          },
+
+          "Benchmark Datasets": {
+            "ImageNet": 0.5,  
+            "COCO": 0.5,
+            "CIFAR-10/100": 0.4,
+            "Caltech 101": 0.7
           },
 
           "Datasets": {
             "MNIST": 0.6,                
             "CIFAR-10": 0.6,                
-            "Kaggle Datasets": 0.7
+            "Kaggle Datasets": 0.7,
+            "RACE": 0.6,
+            "PubMed": 0.6
           },
 
           "Cloud Platforms": {
@@ -259,10 +278,11 @@
           "Edge AI": {
             "TensorFlow Lite":0.2, 
             "Core ML":0.7,
-            "Embedded Systems": 0.3
+            "Embedded Systems": 0.3,
+            "Quantization": 0.7
           },
 
-          "Agents": 0.2,
+          "Agents": 0.5,
 
           "Communities": {
             "arXiv (papers)": 0.4, 
@@ -275,7 +295,9 @@
             "Semantic Web": 0.3,
             "Ontologies": 0.4,
             "Jupiter Notebooks": 0.9,
-            "Google colab": 0.8
+            "Google colab": 0.8,
+            "Cursor": 0.4,
+            "Copilot": 0.3
           }
         },
         "Apple ❄️": {
