@@ -22,7 +22,7 @@
             "Latent Space Representation": 0.7,
             "Generative Models (Gen AI)": 0.6,
             "Computer Vision (CV)": 0.7,
-            "Reinforcement Learning (RL)": 0.3
+            "Reinforcement Learning (RL)": 0.3,
           },
 
           "Transformer Architecture": {
@@ -42,7 +42,8 @@
             "LLAMA": 0.8,
             "Low-Rank Adaptation (LoRA)": 0.8,
             "Proximal Policy Optimization (PPO)": 0.7,
-            "Retrieval Augmented Generation (RAG)": 0.8
+            "Retrieval Augmented Generation (RAG)": 0.8,
+            "In-context learning (ICL)": 0.7
           },
 
           "Generative Models": {
@@ -188,9 +189,9 @@
             "Transfer Learning": 0.6,
             "Pre-training": 0.7,                         
             "Fine-Tuning": 0.5,
-            "Few-Shot Learning": 0.7,                      
-            "Zero-Shot Learning": 0.6,
-            "Meta-Learning": 0.1                           
+            "In-context learning (ICL)": 0.7,
+            "Meta-Learning": 0.1,
+            "Curriculum (Phases) Learning": 0.5
           },
 
           "Fine-Tuning": {
@@ -200,7 +201,13 @@
             "Parameter-Efficient Fine-Tuning (PEFT)": 0.7,
             "Adapters": 0.7,
             "Low-Rank Adaptation (LoRA)": 0.7,
-            "Quantization": 0.7               
+            "Quantization": 0.7
+          },
+
+          "In-context learning (ICL)": {
+            "Zero-Shot Learning": 0.7,
+            "Few-Shot Learning": 0.7,                      
+            "Chain-of-Thought (CoT):": 0.7
           },
 
           "Data Preparation": {
