@@ -207,7 +207,8 @@
           "In-context learning (ICL)": {
             "Zero-Shot Learning": 0.7,
             "Few-Shot Learning": 0.7,                      
-            "Chain-of-Thought (CoT):": 0.7
+            "Chain-of-Thought (CoT):": 0.7,
+            "Prompt Engineering:": 0.7
           },
 
           "Data Preparation": {
