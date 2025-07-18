@@ -289,7 +289,7 @@
             "Embedded Systems": 0.3,
             "Quantization": 0.7
           },
-          
+
           "Communities": {
             "arXiv (papers)": 0.4, 
             "Hugging Face": 0.5,
@@ -305,6 +305,7 @@
             "Cursor": 0.4,
             "Copilot": 0.3
           }
+          
         },
         "Apple ❄️": {
           "iOS Software Engineering": 0.9,
