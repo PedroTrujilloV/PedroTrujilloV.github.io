@@ -111,6 +111,7 @@
             "BLEU/ROUGE Metrics": 0.5,
             "Transformer-Based Models": 0.7,
             "BERT": 0.7, 
+            "Vector Databases": 0.7,
             "GPT Architecture": 0.6,
             "Sequence-to-Sequence Models": 0.6
           },
@@ -299,6 +300,7 @@
           },
 
           "Other": {
+            "FAISS": 0.7,
             "Semantic Web": 0.3,
             "Ontologies": 0.4,
             "Jupiter Notebooks": 0.9,
@@ -393,6 +395,8 @@
           "Relational Database Modeling": 0.9,
           "MySQL": 0.9,
           "SQLite": 0.8,
+          "Vector Databases": 0.7,
+          "FAISS": 0.7,
           "NoSQL": 0.8,
           "GraphQL": 0.8,
           "Apollo": 0.9
