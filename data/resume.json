@@ -469,6 +469,21 @@
     },
     "LANGUAGES": ["English", "Spanish"],
     "COURSES & CERTIFICATES": {
+      "Efficient Large Language Model (LLM) Customization": {
+        "date": "05/2025",
+        "link": "https://learn.nvidia.com/certificates?id=GdqQ3-a3Tm6NYYvqKjwRCg",
+         "organization": "NVIDIA"
+      },
+      "Building LLM Applications With Prompt Engineering": {
+        "date": "04/2025",
+        "link": "https://learn.nvidia.com/certificates?id=7S56os0PSLSDuDsG18jnRg",
+         "organization": "NVIDIA"
+      },
+      "Fundamentals of Deep Learning": {
+        "date": "03/2024",
+        "link": "https://learn.nvidia.com/certificates?id=Lsw5D7M3Q76rQxRpkJjGMw",
+         "organization": "NVIDIA"
+      },
       "Generative AI with Large Language Models": {
         "date": "02/2024",
         "link": "https://www.coursera.org/account/accomplishments/verify/7QCBC6K78HGD",
