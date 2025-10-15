@@ -506,6 +506,21 @@
     },
     "LANGUAGES": ["English", "Spanish"],
     "COURSES & CERTIFICATES": {
+      "Generative AI with Diffusion Models": {
+        "date": "09/2025",
+        "link": "https://learn.nvidia.com/certificates?id=qWKw2Fa_RQScDAhKqd-PgQ",
+         "organization": "NVIDIA"
+      },
+      "Applications of AI for Anomaly Detection": {
+        "date": "09/2025",
+        "link": "https://learn.nvidia.com/certificates?id=kcmDordZQHWt6jioVxylDQ",
+         "organization": "NVIDIA"
+      },
+      "Rapid Application Development with Large Language Models (LLMs)": {
+        "date": "09/2025",
+        "link": "https://learn.nvidia.com/certificates?id=YQigdoWqQ9erhA4H8gJhGg",
+         "organization": "NVIDIA"
+      },
       "Efficient Large Language Model (LLM) Customization": {
         "date": "05/2025",
         "link": "https://learn.nvidia.com/certificates?id=GdqQ3-a3Tm6NYYvqKjwRCg",
