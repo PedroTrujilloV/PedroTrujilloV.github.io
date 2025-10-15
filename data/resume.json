@@ -229,10 +229,43 @@
             "Outlier Detection": 0.6                       
           },
 
-          "Reinforcement Learning (RL)": {
-            "Reward Modeling": 0.3,
-            "Proximal Policy Optimization (PPO)": 0.1,
-            "Agents": 0.5
+          "Deep Reinforcement Learning (DRL)": {
+            "Agents": 0.8,
+            "Function Approximation": 0.5,
+            "Reward Shaping": 0.4,
+            "Exploration vs. Exploitation": 0.5,
+            "Policy Regularization": 0.4,
+            "Off-Policy Learning": 0.5,
+            "On-Policy Learning": 0.5,
+            "Temporal Difference (TD) Learning": 0.4,
+            "Monte Carlo Methods": 0.4,
+            "Markov Decision Processes (MDPs)": 0.4,
+            "Value Function Approximation Based Methods": 0.5,
+            "Q-Learning": 0.4,
+            "Deep Q-Networks (DQN)": 0.5,
+            "Double DQN (DDQN)": 0.5,
+            "Experience Replay": 0.5,
+            "Dueling DQN": 0.5,
+            "Policy-Based Methods": 0.4,
+            "REINFORCE": 0.5, 
+            "Actor-Critic Methods": 0.5,
+            "Soft Actor-Critic (SAC)": 0.5,
+            "Advantage Actor-Critic (A2C)": 0.5,
+            "Aasynchronous Advantage Actor-Critic (A3C)": 0.5,
+            "Policy Gradient Methods": 0.5,
+            "Trust Region Policy Optimization (TRPO)": 0.5,
+            "Proximal Policy Optimization (PPO)": 0.5,
+            "Deep Deterministic Policy Gradient (DDPG)": 0.5,
+            "Twin Delayed DDPG (TD3)": 0.5,
+            "Actor-Critic with Experience Replay (ACER)": 0.5,
+            "Curriculum Learning": 0.8,
+            "Hindsight Experience Replay (HER)": 0.3,
+            "Multi-Objective Reinforcement Learning (MORL)": 0.2,
+            "Multi-Agent Reinforcement Learning (MARL)": 0.2,
+            "Hierarchical Reinforcement Learning (HRL)": 0.2,
+            "Inverse Reinforcement Learning (IRL)": 0.1,
+            "Transference Reinforcement Learning (TRL)": 0.1,
+            "Continuous Reinforcement Learning (CRL)": 0.1
           },
 
           "Frameworks & APIs": {
@@ -473,6 +506,21 @@
     },
     "LANGUAGES": ["English", "Spanish"],
     "COURSES & CERTIFICATES": {
+      "Generative AI with Diffusion Models": {
+        "date": "09/2025",
+        "link": "https://learn.nvidia.com/certificates?id=qWKw2Fa_RQScDAhKqd-PgQ",
+         "organization": "NVIDIA"
+      },
+      "Applications of AI for Anomaly Detection": {
+        "date": "09/2025",
+        "link": "https://learn.nvidia.com/certificates?id=kcmDordZQHWt6jioVxylDQ",
+         "organization": "NVIDIA"
+      },
+      "Rapid Application Development with Large Language Models (LLMs)": {
+        "date": "09/2025",
+        "link": "https://learn.nvidia.com/certificates?id=YQigdoWqQ9erhA4H8gJhGg",
+         "organization": "NVIDIA"
+      },
       "Efficient Large Language Model (LLM) Customization": {
         "date": "05/2025",
         "link": "https://learn.nvidia.com/certificates?id=GdqQ3-a3Tm6NYYvqKjwRCg",
