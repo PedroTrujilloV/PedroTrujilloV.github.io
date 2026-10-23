@@ -667,11 +667,11 @@
         "projects": [
           {
             "title": "CNC Shared Suitcase App",
-            "category": "Cloud Native Computing",
+            "category": "Cloud Native Computing, Microservices, Kubernetes, Docker, PostgreSQL, AWS",
             "nbviewerLink": "https://pedrotrujillov.github.io/CloudNativeComputingSharedSuitcaseApp/",
             "githubLink": "https://github.com/PedroTrujilloV/CloudNativeComputingSharedSuitcaseApp",
             "imageSrc": "https://github.com/PedroTrujilloV/CloudNativeComputingSharedSuitcaseApp/blob/main/docs/diagrams/Whale_CNC_Background.jpg?raw=true",
-            "description": "This project implements a brokerage platform (broker) for collaborative package delivery. Delivery 1 consisted of four independent applications (users, routes, posts, and offers), each with its own PostgreSQL database, deployed in containers and locally orchestrated using Kubernetes (Minikube). Delivery 2 (Entrega 2) extended the system with the scores_app microservice, three orchestrator services (RF-003, RF-004, and RF-005), a Kubernetes Ingress as the single public entry point, and a shared PostgreSQL instance in the cloud deployment."
+            "description": "This project implements a brokerage platform for collaborative package delivery. Delivery 1 consisted of four independent applications (users, routes, posts, and offers), each with its own PostgreSQL database, deployed in containers and locally orchestrated using Kubernetes (Minikube). Delivery 2 extended the system with the scores_app microservice, three orchestrator services, a Kubernetes Ingress as the single public entry point, and a shared PostgreSQL instance in the cloud deployment. Delivery 3 adds the two new requirements on top of the same cluster and the same single external host"
           }
         ]
       },
