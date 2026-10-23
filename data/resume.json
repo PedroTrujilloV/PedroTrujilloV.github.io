@@ -662,7 +662,7 @@
         ]
       },
       {
-        "category": "Cloud Native Computing ☁️",
+        "category": "Cloud Native Computing ☁️ and Web Development",
         "description": "These are some Cloud Native Computing and Web development projects I have worked on.",
         "projects": [
           {
@@ -672,6 +672,9 @@
             "githubLink": "https://github.com/PedroTrujilloV/CloudNativeComputingSharedSuitcaseApp",
             "imageSrc": "https://github.com/PedroTrujilloV/CloudNativeComputingSharedSuitcaseApp/blob/main/docs/diagrams/Whale_CNC_Background.jpg?raw=true",
             "description": "This project implements a brokerage platform for collaborative package delivery. Delivery 1 consisted of four independent applications (users, routes, posts, and offers), each with its own PostgreSQL database, deployed in containers and locally orchestrated using Kubernetes (Minikube). Delivery 2 extended the system with the scores_app microservice, three orchestrator services, a Kubernetes Ingress as the single public entry point, and a shared PostgreSQL instance in the cloud deployment. Delivery 3 adds the two new requirements on top of the same cluster and the same single external host"
+          },
+          {
+            "iframeSrc": "https://www.behance.net/embed/project/100814019?ilo0=1"
           }
         ]
       },
@@ -711,9 +714,6 @@
         "projects": [
           {
             "iframeSrc": "https://www.behance.net/embed/project/100875107?ilo0=1"
-          },
-          {
-            "iframeSrc": "https://www.behance.net/embed/project/100814019?ilo0=1"
           }
         ]
       }
