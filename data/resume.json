@@ -350,27 +350,51 @@
           }
 
         },
-        "Apple ❄️": {
-          "iOS Software Engineering": 0.9,
-          "tvOS Software Engineering": 0.9,
-          "watchOS Software Engineering": 0.9,
-          "Swift": 0.9,
-          "Objective-C": 0.9,
-          "UIKit": 0.9,
-          "SwiftUI": 0.8,
-          "Cocoa & Cocoa Touch": 0.9,
-          "Combine Framework": 0.8,
-          "Core Bluetooth": 0.9,
-          "HealthKit": 0.9,
-          "GCD": 0.9,
-          "Protocols and Delegates": 0.9,
-          "Concurrency": 0.9,
-          "Core Data": 0.8,
-          "ARKit": 0.7,
-          "Core ML": 0.7,
-          "Metal": 0.6
+
+        "Cloud Native Applications Development": {
+          "Cloud-Native Architecture": 0.8,
+          "Microservices": 0.8,
+          "Containerization": 0.8,
+          "Orchestration": 0.7,
+          "Infrastructure as Code (IaC)": 0.7,
+          "Docker": 0.8,
+          "Kubernetes": 0.7,
+          "Ingress": 0.7,
+          "NGINX" : 0.7,
+          "API Gateway": 0.7,
+          "Discovery": 0.7,
+          "Registry": 0.7,
+          "Saga Pattern": 0.7,
+          "Sidecar Pattern": 0.7,
+          "Service Mesh": 0.6,
+          "Serverless Computing": 0.7,
+          "Function as a Service (FaaS)": 0.7,
+          "Event-Driven Architecture": 0.7,
+          "Producer-Consumer Pattern": 0.7,
+          "Message Queues": 0.7,
+          "Pub/Sub Pattern": 0.7,
+          "Topic-based Messaging": 0.7,
+          "CI/CD Pipelines": 0.8,
+          "Observability": 0.7,
+          "Monitoring and Logging": 0.7,
+          "GitOps": 0.7,
+          "Terraform": 0.7,
+          "AWS": {
+            "EC2": 0.7,
+            "S3": 0.7,
+            "EKS": 0.7,
+            "Lambda": 0.7,
+            "DynamoDB": 0.7,
+            "RDS": 0.7,
+            "CloudWatch": 0.7,
+            "IAM": 0.7,
+            "VPC": 0.7
+          }
         },
+
         "Software Engineering": {
+          "Twelve-Factor App Methodology": 0.8,
+          "Domain-Driven Design (DDD)": 0.8,
           "Agile": 0.8,
           "Scrum": 0.8,
           "SDLC & UML": 0.9,
@@ -395,6 +419,27 @@
             "RESTful APIs": 0.9,
             "JSON": 0.9
           }
+        },
+
+        "Apple ❄️": {
+          "iOS Software Engineering": 0.9,
+          "tvOS Software Engineering": 0.9,
+          "watchOS Software Engineering": 0.9,
+          "Swift": 0.9,
+          "Objective-C": 0.9,
+          "UIKit": 0.9,
+          "SwiftUI": 0.8,
+          "Cocoa & Cocoa Touch": 0.9,
+          "Combine Framework": 0.8,
+          "Core Bluetooth": 0.9,
+          "HealthKit": 0.9,
+          "GCD": 0.9,
+          "Protocols and Delegates": 0.9,
+          "Concurrency": 0.9,
+          "Core Data": 0.8,
+          "ARKit": 0.7,
+          "Core ML": 0.7,
+          "Metal": 0.6
         },
 
         "Computer Science": {
@@ -662,6 +707,23 @@
         ]
       },
       {
+        "category": "Cloud Native Computing ☁️ and Web Development",
+        "description": "These are some Cloud Native Computing and Web development projects I have worked on.",
+        "projects": [
+          {
+            "title": "CNC Shared Suitcase App",
+            "category": "Cloud Native Computing, Microservices, Kubernetes, Docker, PostgreSQL, AWS",
+            "nbviewerLink": "https://pedrotrujillov.github.io/CloudNativeComputingSharedSuitcaseApp/",
+            "githubLink": "https://github.com/PedroTrujilloV/CloudNativeComputingSharedSuitcaseApp",
+            "imageSrc": "https://github.com/PedroTrujilloV/CloudNativeComputingSharedSuitcaseApp/blob/main/docs/diagrams/Whale_CNC_Background.jpg?raw=true",
+            "description": "This project implements a brokerage platform for collaborative package delivery. Delivery 1 consisted of four independent applications (users, routes, posts, and offers), each with its own PostgreSQL database, deployed in containers and locally orchestrated using Kubernetes (Minikube). Delivery 2 extended the system with the scores_app microservice, three orchestrator services, a Kubernetes Ingress as the single public entry point, and a shared PostgreSQL instance in the cloud deployment. Delivery 3 adds the two new requirements on top of the same cluster and the same single external host"
+          },
+          {
+            "iframeSrc": "https://www.behance.net/embed/project/100814019?ilo0=1"
+          }
+        ]
+      },
+      {
         "category": "Apple <i class='bi bi-apple'></i>",
         "description": "These are some iOS, watchOS, and tvOS applications I have developed or worked in the past for several companies:",
         "projects": [
@@ -697,9 +759,6 @@
         "projects": [
           {
             "iframeSrc": "https://www.behance.net/embed/project/100875107?ilo0=1"
-          },
-          {
-            "iframeSrc": "https://www.behance.net/embed/project/100814019?ilo0=1"
           }
         ]
       }
